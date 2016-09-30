@@ -25,11 +25,11 @@ namespace QuanLiKho
                 string line;
                 while ((line = sr.ReadLine()) != null)
                 {
-                    connectionString.DataSource = line;
-                    connectionString.InitialCatalog = "DieuHanhTacNghiep";
+                    connectionString.DataSource = //Ten server
+                    connectionString.InitialCatalog = //Ten database
                     connectionString.IntegratedSecurity = true;
 
-                    server = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=" + Application.ExecutablePath.Substring(0, Application.ExecutablePath.LastIndexOf("\\")) + @"\DieuHanhTacNghiep.mdf;Integrated Security=True;Connect Timeout=30";
+                    server = connectionString.connectionString;
                 }
                 sr.Close();
             }
