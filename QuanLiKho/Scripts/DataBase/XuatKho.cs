@@ -77,7 +77,8 @@ namespace QuanLiKho
 	#endregion
 
 	#region Public Methods
-	string ConnectionString=@"Data Source=.\SQLEXPRESS;Initial Catalog=QuanLiKho;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=QuanLiKho";
+	string ConnectionString=@"Data Source=.\SQLEXPRESS;Initial Catalog=QuanLiKho;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=QuanLiKho";
+
 	public DataTable Select()
 	{
 		DataSet ds;
@@ -92,7 +93,7 @@ namespace QuanLiKho
 				new SqlParameter("@XKSL",SqlDbType.Int),
 				new SqlParameter("@XKGia",SqlDbType.Money),
 				new SqlParameter("@KHMa",SqlDbType.Char),
-				new SqlParameter("@XKNgay",SqlDbType.System.DateTime.DateTime),
+				new SqlParameter("@XKNgay",SqlDbType.DateTime),
 				new SqlParameter("@XKThanhTien",SqlDbType.Money) 
 			};
 			
