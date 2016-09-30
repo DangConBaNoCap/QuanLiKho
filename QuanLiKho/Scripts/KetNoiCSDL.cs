@@ -25,11 +25,11 @@ namespace QuanLiKho
                 string line;
                 while ((line = sr.ReadLine()) != null)
                 {
-                    connectionString.DataSource = //Ten server
-                    connectionString.InitialCatalog = //Ten database
+                    connectionString.DataSource = @".\SQLEXPRESS";
+                    connectionString.InitialCatalog = "QuanLiKho";
                     connectionString.IntegratedSecurity = true;
 
-                    server = connectionString.connectionString;
+                    server = connectionString.ConnectionString;
                 }
                 sr.Close();
             }
@@ -40,12 +40,12 @@ namespace QuanLiKho
             {
                 try
                 {
-                    //XtraMessageBox.Show(server);
+                    //MessageBox.Show(server);
                     KetNoiCSDL.connect = new SqlConnection(server);
                 }
                 catch (Exception e)
                 {
-                    XtraMessageBox.Show("Không Thể Kết Nối Đến Cơ Sở Dữ Liệu\n", "Cảnh Báo");
+                    MessageBox.Show("Không Thể Kết Nối Đến Cơ Sở Dữ Liệu\n", "Cảnh Báo");
                     return false;
                 }
 
@@ -69,7 +69,7 @@ namespace QuanLiKho
             }
             catch
             {
-                XtraMessageBox.Show("Không Thể Đóng Kết Nối", "Cảnh Báo");
+                MessageBox.Show("Không Thể Đóng Kết Nối", "Cảnh Báo");
             }
         }
 
@@ -85,7 +85,7 @@ namespace QuanLiKho
             }
             catch (Exception e)
             {
-                XtraMessageBox.Show("Không Thể Thực Thi SQL, error: " + e.Message, "Cảnh Báo");
+                MessageBox.Show("Không Thể Thực Thi SQL, error: " + e.Message, "Cảnh Báo");
             }
         }
 
@@ -103,7 +103,7 @@ namespace QuanLiKho
             }
             catch (Exception e)
             {
-                XtraMessageBox.Show("Không Thể Lấy Dữ Liệu, error: " + e.Message, "Cảnh Báo");
+                MessageBox.Show("Không Thể Lấy Dữ Liệu, error: " + e.Message, "Cảnh Báo");
                 return null;
             }
         }
@@ -170,7 +170,7 @@ namespace QuanLiKho
                     }
                     catch (Exception e)
                     {
-                        XtraMessageBox.Show("Không Thể Thực Thi SQL, error: " + e.Message, "Cảnh Báo");
+                        MessageBox.Show("Không Thể Thực Thi SQL, error: " + e.Message, "Cảnh Báo");
                         return;
                     }
                 }

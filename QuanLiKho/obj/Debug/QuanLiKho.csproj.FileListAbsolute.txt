@@ -1,1 +1,5 @@
 C:\Users\Tung\Git\HeThongQuanLiKho\QuanLiKho\QuanLiKho\bin\Debug\QuanLiKho.exe.config
+C:\Users\Tung\Git\QuanLiKho\QuanLiKho\bin\Debug\QuanLiKho.exe.config
+C:\Users\Tung\Git\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.csprojResolveAssemblyReference.cache
+C:\Users\Tung\Git\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.Properties.Resources.resources
+C:\Users\Tung\Git\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.csproj.GenerateResource.Cache

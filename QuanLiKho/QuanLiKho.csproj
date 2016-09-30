@@ -32,6 +32,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ApplicationBlocks.Data, Version=2.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -50,6 +54,28 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Scripts\Business\BoPhanController.cs" />
+    <Compile Include="Scripts\Business\DonViController.cs" />
+    <Compile Include="Scripts\Business\HangHoaController.cs" />
+    <Compile Include="Scripts\Business\KhachHangController.cs" />
+    <Compile Include="Scripts\Business\KhoController.cs" />
+    <Compile Include="Scripts\Business\NhanVienController.cs" />
+    <Compile Include="Scripts\Business\NhapKhoController.cs" />
+    <Compile Include="Scripts\Business\NhomController.cs" />
+    <Compile Include="Scripts\Business\NPPController.cs" />
+    <Compile Include="Scripts\Business\PhanQuyenController.cs" />
+    <Compile Include="Scripts\Business\XuatKhoController.cs" />
+    <Compile Include="Scripts\DataBase\BoPhan.cs" />
+    <Compile Include="Scripts\DataBase\DonVi.cs" />
+    <Compile Include="Scripts\DataBase\HangHoa.cs" />
+    <Compile Include="Scripts\DataBase\KhachHang.cs" />
+    <Compile Include="Scripts\DataBase\Kho.cs" />
+    <Compile Include="Scripts\DataBase\NhanVien.cs" />
+    <Compile Include="Scripts\DataBase\NhapKho.cs" />
+    <Compile Include="Scripts\DataBase\Nhom.cs" />
+    <Compile Include="Scripts\DataBase\NPP.cs" />
+    <Compile Include="Scripts\DataBase\PhanQuyen.cs" />
+    <Compile Include="Scripts\DataBase\XuatKho.cs" />
     <Compile Include="Scripts\KetNoiCSDL.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,6 +103,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Form\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
