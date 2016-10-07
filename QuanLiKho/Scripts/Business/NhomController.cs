@@ -16,15 +16,15 @@ namespace QuanLiKho
 	#endregion
 
 	#region Private Variables
-	private char _NMa;
+	private int _NMa;
 	private string _NTen;
 	private string _NGhiChu;
-	private char _KMa;
+	private int _KMa;
 	Nhom  objclstblNhom;
 	#endregion
 
 	#region Public Properties
-	public char NMa
+	public int NMa
 	{ 
 		get { return _NMa; }
 		set { _NMa = value; }
@@ -39,7 +39,7 @@ namespace QuanLiKho
 		get { return _NGhiChu; }
 		set { _NGhiChu = value; }
 	}
-	public char KMa
+	public int KMa
 	{ 
 		get { return _KMa; }
 		set { _KMa = value; }

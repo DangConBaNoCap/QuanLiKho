@@ -16,7 +16,7 @@ namespace QuanLiKho
 	#endregion
 
 	#region Private Variables
-	private char _NPPMa;
+	private int _NPPMa;
 	private string _NPPTen;
 	private string _NPPDiaChi;
 	private string _NPPMaSoThue;
@@ -26,7 +26,7 @@ namespace QuanLiKho
 	#endregion
 
 	#region Public Properties
-	public char NPPMa
+	public int NPPMa
 	{ 
 		get { return _NPPMa; }
 		set { _NPPMa = value; }

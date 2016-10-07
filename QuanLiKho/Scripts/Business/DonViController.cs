@@ -16,14 +16,14 @@ namespace QuanLiKho
 	#endregion
 
 	#region Private Variables
-	private char _DVMa;
+	private int _DVMa;
 	private string _DVTen;
 	private string _DVGhiChu;
 	DonVi  objclstblDonVi;
 	#endregion
 
 	#region Public Properties
-	public char DVMa
+	public int DVMa
 	{ 
 		get { return _DVMa; }
 		set { _DVMa = value; }

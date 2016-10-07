@@ -16,14 +16,14 @@ namespace QuanLiKho
 	#endregion
 
 	#region Private Variables
-	private char _DVMa;
+	private int _DVMa;
 	private string _DVTen;
 	private string _DVGhiChu;
 	DonVi  objclstblDonVi;
 	#endregion
 
 	#region Public Properties
-	public char DVMa
+	public int DVMa
 	{ 
 		get { return _DVMa; }
 		set { _DVMa = value; }
@@ -41,7 +41,8 @@ namespace QuanLiKho
 	#endregion
 
 	#region Public Methods
-	string ConnectionString=@"Data Source=.\SQLEXPRESS;Initial Catalog=QuanLiKho;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=QuanLiKho";
+	//string ConnectionString=@"Data Source=.\SQLEXPRESS;Initial Catalog=QuanLiKho;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=QuanLiKho";
+	string ConnectionString=QuanLiKho.Properties.Settings.Default.ConnectionString.ToString();
 	public DataTable Select()
 	{
 		DataSet ds;
@@ -49,7 +50,7 @@ namespace QuanLiKho
 		{
 			SqlParameter[] Params = 
 			{ 
-				new SqlParameter("@DVMa",SqlDbType.Char),
+				new SqlParameter("@DVMa",SqlDbType.Int),
 				new SqlParameter("@DVTen",SqlDbType.NVarChar),
 				new SqlParameter("@DVGhiChu",SqlDbType.NVarChar) 
 			};

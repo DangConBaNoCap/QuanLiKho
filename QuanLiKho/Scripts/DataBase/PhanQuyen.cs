@@ -18,7 +18,7 @@ namespace QuanLiKho
 	#region Private Variables
 	private char _Username;
 	private char _Password;
-	private char _NVMa;
+	private int _NVMa;
 	PhanQuyen  objclstblPhanQuyen;
 	#endregion
 
@@ -33,7 +33,7 @@ namespace QuanLiKho
 		get { return _Password; }
 		set { _Password = value; }
 	}
-	public char NVMa
+	public int NVMa
 	{ 
 		get { return _NVMa; }
 		set { _NVMa = value; }
@@ -41,7 +41,8 @@ namespace QuanLiKho
 	#endregion
 
 	#region Public Methods
-	string ConnectionString=@"Data Source=.\SQLEXPRESS;Initial Catalog=QuanLiKho;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=QuanLiKho";
+	//string ConnectionString=@"Data Source=.\SQLEXPRESS;Initial Catalog=QuanLiKho;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=QuanLiKho";
+	string ConnectionString=QuanLiKho.Properties.Settings.Default.ConnectionString.ToString();
 	public DataTable Select()
 	{
 		DataSet ds;
@@ -51,7 +52,7 @@ namespace QuanLiKho
 			{ 
 				new SqlParameter("@Username",SqlDbType.Char),
 				new SqlParameter("@Password",SqlDbType.Char),
-				new SqlParameter("@NVMa",SqlDbType.Char) 
+				new SqlParameter("@NVMa",SqlDbType.Int) 
 			};
 			
 

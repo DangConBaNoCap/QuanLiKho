@@ -16,25 +16,25 @@ namespace QuanLiKho
 	#endregion
 
 	#region Private Variables
-	private char _XKMa;
-	private char _HHMa;
+	private int _XKMa;
+	private int _HHMa;
 	private char _KMa;
 	private char _DVMa;
 	private int _XKSL;
 	private decimal _XKGia;
-	private char _KHMa;
+	private int _KHMa;
 	private System.DateTime _XKNgay;
 	private decimal _XKThanhTien;
 	XuatKho  objclstblXuatKho;
 	#endregion
 
 	#region Public Properties
-	public char XKMa
+	public int XKMa
 	{ 
 		get { return _XKMa; }
 		set { _XKMa = value; }
 	}
-	public char HHMa
+	public int HHMa
 	{ 
 		get { return _HHMa; }
 		set { _HHMa = value; }
@@ -59,7 +59,7 @@ namespace QuanLiKho
 		get { return _XKGia; }
 		set { _XKGia = value; }
 	}
-	public char KHMa
+	public int KHMa
 	{ 
 		get { return _KHMa; }
 		set { _KHMa = value; }

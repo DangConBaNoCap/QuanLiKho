@@ -16,7 +16,7 @@ namespace QuanLiKho
 	#endregion
 
 	#region Private Variables
-	private char _NPPMa;
+	private int _NPPMa;
 	private string _NPPTen;
 	private string _NPPDiaChi;
 	private string _NPPMaSoThue;
@@ -26,7 +26,7 @@ namespace QuanLiKho
 	#endregion
 
 	#region Public Properties
-	public char NPPMa
+	public int NPPMa
 	{ 
 		get { return _NPPMa; }
 		set { _NPPMa = value; }
@@ -59,7 +59,8 @@ namespace QuanLiKho
 	#endregion
 
 	#region Public Methods
-	string ConnectionString=@"Data Source=.\SQLEXPRESS;Initial Catalog=QuanLiKho;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=QuanLiKho";
+	//string ConnectionString=@"Data Source=.\SQLEXPRESS;Initial Catalog=QuanLiKho;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=QuanLiKho";
+	string ConnectionString=QuanLiKho.Properties.Settings.Default.ConnectionString.ToString();
 	public DataTable Select()
 	{
 		DataSet ds;
@@ -67,7 +68,7 @@ namespace QuanLiKho
 		{
 			SqlParameter[] Params = 
 			{ 
-				new SqlParameter("@NPPMa",SqlDbType.Char),
+				new SqlParameter("@NPPMa",SqlDbType.Int),
 				new SqlParameter("@NPPTen",SqlDbType.NVarChar),
 				new SqlParameter("@NPPDiaChi",SqlDbType.NVarChar),
 				new SqlParameter("@NPPMaSoThue",SqlDbType.NChar),

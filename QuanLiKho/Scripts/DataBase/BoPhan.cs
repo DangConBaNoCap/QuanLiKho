@@ -16,14 +16,14 @@ namespace QuanLiKho
 	#endregion
 
 	#region Private Variables
-	private char _BPMa;
+	private int _BPMa;
 	private string _BPTen;
 	private string _BPGhiChu;
 	BoPhan  objclstblBoPhan;
 	#endregion
 
 	#region Public Properties
-	public char BPMa
+	public int BPMa
 	{ 
 		get { return _BPMa; }
 		set { _BPMa = value; }
@@ -41,7 +41,8 @@ namespace QuanLiKho
 	#endregion
 
 	#region Public Methods
-	string ConnectionString=@"Data Source=.\SQLEXPRESS;Initial Catalog=QuanLiKho;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=QuanLiKho";
+	//string ConnectionString=@"Data Source=.\SQLEXPRESS;Initial Catalog=QuanLiKho;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=QuanLiKho";
+	string ConnectionString=QuanLiKho.Properties.Settings.Default.ConnectionString.ToString();
 	public DataTable Select()
 	{
 		DataSet ds;
@@ -49,7 +50,7 @@ namespace QuanLiKho
 		{
 			SqlParameter[] Params = 
 			{ 
-				new SqlParameter("@BPMa",SqlDbType.Char),
+				new SqlParameter("@BPMa",SqlDbType.Int),
 				new SqlParameter("@BPTen",SqlDbType.NVarChar),
 				new SqlParameter("@BPGhiChu",SqlDbType.NVarChar) 
 			};

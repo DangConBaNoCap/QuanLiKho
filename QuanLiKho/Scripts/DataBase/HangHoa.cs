@@ -16,19 +16,19 @@ namespace QuanLiKho
 	#endregion
 
 	#region Private Variables
-	private char _HHMa;
+	private int _HHMa;
 	private string _HHTen;
 	private decimal _HHGia;
-	private char _DVMa;
+	private int _DVMa;
 	private char _KMa;
-	private char _NPPMa;
+	private int _NPPMa;
 	private int _HHTonHienTai;
-	private char _NMa;
+	private int _NMa;
 	HangHoa  objclstblHangHoa;
 	#endregion
 
 	#region Public Properties
-	public char HHMa
+	public int HHMa
 	{ 
 		get { return _HHMa; }
 		set { _HHMa = value; }
@@ -43,7 +43,7 @@ namespace QuanLiKho
 		get { return _HHGia; }
 		set { _HHGia = value; }
 	}
-	public char DVMa
+	public int DVMa
 	{ 
 		get { return _DVMa; }
 		set { _DVMa = value; }
@@ -53,7 +53,7 @@ namespace QuanLiKho
 		get { return _KMa; }
 		set { _KMa = value; }
 	}
-	public char NPPMa
+	public int NPPMa
 	{ 
 		get { return _NPPMa; }
 		set { _NPPMa = value; }
@@ -63,7 +63,7 @@ namespace QuanLiKho
 		get { return _HHTonHienTai; }
 		set { _HHTonHienTai = value; }
 	}
-	public char NMa
+	public int NMa
 	{ 
 		get { return _NMa; }
 		set { _NMa = value; }
@@ -71,8 +71,8 @@ namespace QuanLiKho
 	#endregion
 
 	#region Public Methods
-	string ConnectionString=@"Data Source=.\SQLEXPRESS;Initial Catalog=QuanLiKho;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=QuanLiKho";
-
+	//string ConnectionString=@"Data Source=.\SQLEXPRESS;Initial Catalog=QuanLiKho;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=QuanLiKho";
+	string ConnectionString=QuanLiKho.Properties.Settings.Default.ConnectionString.ToString();
 	public DataTable Select()
 	{
 		DataSet ds;
@@ -80,14 +80,14 @@ namespace QuanLiKho
 		{
 			SqlParameter[] Params = 
 			{ 
-				new SqlParameter("@HHMa",SqlDbType.Char),
+				new SqlParameter("@HHMa",SqlDbType.Int),
 				new SqlParameter("@HHTen",SqlDbType.NVarChar),
 				new SqlParameter("@HHGia",SqlDbType.Money),
-				new SqlParameter("@DVMa",SqlDbType.Char),
+				new SqlParameter("@DVMa",SqlDbType.Int),
 				new SqlParameter("@KMa",SqlDbType.Char),
-				new SqlParameter("@NPPMa",SqlDbType.Char),
+				new SqlParameter("@NPPMa",SqlDbType.Int),
 				new SqlParameter("@HHTonHienTai",SqlDbType.Int),
-				new SqlParameter("@NMa",SqlDbType.Char) 
+				new SqlParameter("@NMa",SqlDbType.Int) 
 			};
 			
 

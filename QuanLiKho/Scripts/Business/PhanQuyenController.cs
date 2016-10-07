@@ -18,7 +18,7 @@ namespace QuanLiKho
 	#region Private Variables
 	private char _Username;
 	private char _Password;
-	private char _NVMa;
+	private int _NVMa;
 	PhanQuyen  objclstblPhanQuyen;
 	#endregion
 
@@ -33,7 +33,7 @@ namespace QuanLiKho
 		get { return _Password; }
 		set { _Password = value; }
 	}
-	public char NVMa
+	public int NVMa
 	{ 
 		get { return _NVMa; }
 		set { _NVMa = value; }

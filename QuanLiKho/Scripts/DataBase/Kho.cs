@@ -16,7 +16,7 @@ namespace QuanLiKho
 	#endregion
 
 	#region Private Variables
-	private char _KMa;
+	private int _KMa;
 	private string _KTen;
 	private string _KNguoiLienHe;
 	private string _KDiaChi;
@@ -27,7 +27,7 @@ namespace QuanLiKho
 	#endregion
 
 	#region Public Properties
-	public char KMa
+	public int KMa
 	{ 
 		get { return _KMa; }
 		set { _KMa = value; }
@@ -65,7 +65,8 @@ namespace QuanLiKho
 	#endregion
 
 	#region Public Methods
-	string ConnectionString=@"Data Source=.\SQLEXPRESS;Initial Catalog=QuanLiKho;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=QuanLiKho";
+	//string ConnectionString=@"Data Source=.\SQLEXPRESS;Initial Catalog=QuanLiKho;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=QuanLiKho";
+	string ConnectionString=QuanLiKho.Properties.Settings.Default.ConnectionString.ToString();
 	public DataTable Select()
 	{
 		DataSet ds;
@@ -73,7 +74,7 @@ namespace QuanLiKho
 		{
 			SqlParameter[] Params = 
 			{ 
-				new SqlParameter("@KMa",SqlDbType.Char),
+				new SqlParameter("@KMa",SqlDbType.Int),
 				new SqlParameter("@KTen",SqlDbType.NVarChar),
 				new SqlParameter("@KNguoiLienHe",SqlDbType.NVarChar),
 				new SqlParameter("@KDiaChi",SqlDbType.NVarChar),

@@ -16,7 +16,7 @@ namespace QuanLiKho
 	#endregion
 
 	#region Private Variables
-	private char _KHMa;
+	private int _KHMa;
 	private string _KHTen;
 	private string _KHDiaChi;
 	private char _KHMaSoThue;
@@ -26,7 +26,7 @@ namespace QuanLiKho
 	#endregion
 
 	#region Public Properties
-	public char KHMa
+	public int KHMa
 	{ 
 		get { return _KHMa; }
 		set { _KHMa = value; }

@@ -16,14 +16,14 @@ namespace QuanLiKho
 	#endregion
 
 	#region Private Variables
-	private char _BPMa;
+	private int _BPMa;
 	private string _BPTen;
 	private string _BPGhiChu;
 	BoPhan  objclstblBoPhan;
 	#endregion
 
 	#region Public Properties
-	public char BPMa
+	public int BPMa
 	{ 
 		get { return _BPMa; }
 		set { _BPMa = value; }

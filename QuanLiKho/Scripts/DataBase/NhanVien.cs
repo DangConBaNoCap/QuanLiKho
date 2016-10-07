@@ -16,15 +16,15 @@ namespace QuanLiKho
 	#endregion
 
 	#region Private Variables
-	private char _NVMa;
+	private int _NVMa;
 	private string _NVTen;
 	private string _NVGhiChu;
-	private char _BPMa;
+	private int _BPMa;
 	NhanVien  objclstblNhanVien;
 	#endregion
 
 	#region Public Properties
-	public char NVMa
+	public int NVMa
 	{ 
 		get { return _NVMa; }
 		set { _NVMa = value; }
@@ -39,7 +39,7 @@ namespace QuanLiKho
 		get { return _NVGhiChu; }
 		set { _NVGhiChu = value; }
 	}
-	public char BPMa
+	public int BPMa
 	{ 
 		get { return _BPMa; }
 		set { _BPMa = value; }
@@ -47,8 +47,8 @@ namespace QuanLiKho
 	#endregion
 
 	#region Public Methods
-	string ConnectionString=@"Data Source=.\SQLEXPRESS;Initial Catalog=QuanLiKho;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=QuanLiKho";
-
+	//string ConnectionString=@"Data Source=.\SQLEXPRESS;Initial Catalog=QuanLiKho;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=QuanLiKho";
+	string ConnectionString=QuanLiKho.Properties.Settings.Default.ConnectionString.ToString();
 	public DataTable Select()
 	{
 		DataSet ds;
@@ -56,10 +56,10 @@ namespace QuanLiKho
 		{
 			SqlParameter[] Params = 
 			{ 
-				new SqlParameter("@NVMa",SqlDbType.Char),
+				new SqlParameter("@NVMa",SqlDbType.Int),
 				new SqlParameter("@NVTen",SqlDbType.NVarChar),
 				new SqlParameter("@NVGhiChu",SqlDbType.NVarChar),
-				new SqlParameter("@BPMa",SqlDbType.Char) 
+				new SqlParameter("@BPMa",SqlDbType.Int) 
 			};
 			
 
