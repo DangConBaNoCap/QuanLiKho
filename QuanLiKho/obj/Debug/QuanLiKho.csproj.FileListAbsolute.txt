@@ -7,3 +7,8 @@ C:\Users\Tung\Git\QuanLiKho\QuanLiKho\bin\Debug\QuanLiKho.exe
 C:\Users\Tung\Git\QuanLiKho\QuanLiKho\bin\Debug\QuanLiKho.pdb
 C:\Users\Tung\Git\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.exe
 C:\Users\Tung\Git\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.pdb
+D:\github\QuanLiKho\QuanLiKho\bin\Debug\QuanLiKho.exe.config
+D:\github\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.csprojFakesResolveAssemblyReference.cache
+D:\github\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.Properties.Resources.resources
+D:\github\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.csproj.GenerateResource.Cache
+D:\github\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.exe.licenses
