@@ -12,3 +12,4 @@ D:\github\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.csprojFakesResolveAssemblyRefe
 D:\github\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.Properties.Resources.resources
 D:\github\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.csproj.GenerateResource.Cache
 D:\github\QuanLiKho\QuanLiKho\obj\Debug\QuanLiKho.exe.licenses
+F:\Git\QuanLiKho\QuanLiKho\bin\Debug\QuanLiKho.exe.config
