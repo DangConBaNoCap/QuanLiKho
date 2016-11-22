@@ -18,8 +18,7 @@ namespace QuanLiKho
     {
         StateNK,
         StateXK,
-        StateTK,
-
+        StateTK
     }
 
     public partial class FormMain : DevExpress.XtraBars.Ribbon.RibbonForm
@@ -65,12 +64,11 @@ namespace QuanLiKho
 
         //Xuat kho
         private string cmdTime1;
+        private string stateQL;
 
         public FormMain()
         {
             InitializeComponent();
-
-
 
             //tat tat ca cac xtraTab
             //======================================================================
@@ -81,19 +79,20 @@ namespace QuanLiKho
             }
             xtraTabMain.TabPages.Remove(xtraTPTonKho);
             xtraTabMain.TabPages.Remove(BDXK);
-
             xtraTabMain.TabPages.Remove(xtrapTPBoPhan);
-
             xtraTabMain.TabPages.Remove(xtraTPNhanVien);
-
             xtraTabMain.TabPages.Remove(xtraTPPhanQuyen);
             //======================================================================
-
-
             init();
-            initPQ();
+            initDatabase();
+            //initPQ();
         }
 
+        private void initDatabase()
+        {
+            DataTable listKhachHang= con.GetDataTable("select * form tblKhachHang");
+            comboBoxEditTenNK.Properties.DataSource = listKhachHang;
+        }
         private void init()
         {
             active = false; //khong dang xuat
@@ -142,7 +141,6 @@ namespace QuanLiKho
             btnThemNV.Enabled = false;
             btnRefeshNV.Enabled = false;
 
-
             //name ủe
             lbNameUser.Text += con.GetValue("select name from tblLuuMK where num='1'", 0);
         }
@@ -178,8 +176,6 @@ namespace QuanLiKho
             }
             vSoXtraTab++;
             xtraTabMain.TabPages.Add(xtraTabName);
-
-
         }
 
         //xoa tab
@@ -743,7 +739,7 @@ namespace QuanLiKho
         private void btnPhanQuyen_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             AddXtraTab(xtraTPPhanQuyen);
-            gridControlTTTK.DataSource = con.GetDataTable("select * from PhanQuyen");
+            gridControlTTTK.DataSource = con.GetDataTable("select * from tblPhanQuyen");
 
             //nhat ki
             DateTime currentTime = DateTime.Now;
@@ -762,7 +758,7 @@ namespace QuanLiKho
             }
             else
             {
-                SqlDataAdapter sql = con.GetCmd("select * from PhanQuyen");
+                SqlDataAdapter sql = con.GetCmd("select * from tblPhanQuyen");
 
                 DataTable temp = gridControlTTTK.DataSource as DataTable;
 
@@ -786,7 +782,7 @@ namespace QuanLiKho
 
         private void btnSuaTK_Click(object sender, EventArgs e)
         {
-            SqlDataAdapter sql = con.GetCmd("select * from PhanQuyen");
+            SqlDataAdapter sql = con.GetCmd("select * from tblPhanQuyen");
 
             DataTable temp = gridControlTTTK.DataSource as DataTable;
 
@@ -811,7 +807,7 @@ namespace QuanLiKho
         {
             try
             {
-                con.ThucThiCauLenhSQL("delete PhanQuyen where Username='" + userSelect + "'");
+                con.ThucThiCauLenhSQL("delete tblPhanQuyen where Username='" + userSelect + "'");
 
             }
             catch (Exception ex)
@@ -825,7 +821,7 @@ namespace QuanLiKho
             con.ThucThiCauLenhSQL("insert into tblNhatKi (NKTen,NKTacVu,NKNgay,NKUser) values (N'Phân Quyền',N'Xóa','" +
                string.Format("{0:yyyy/MM/dd HH:mm:ss}", currentTime) + "',N'" + lbNameUser.Text + "')");
 
-            gridControlTTTK.DataSource = con.GetDataTable("select * from PhanQuyen");
+            gridControlTTTK.DataSource = con.GetDataTable("select * from tblPhanQuyen");
         }
 
         private void gridView9_RowClick(object sender, DevExpress.XtraGrid.Views.Grid.RowClickEventArgs e)
@@ -842,7 +838,7 @@ namespace QuanLiKho
                 //lay user hien tai
                 string user = con.GetValue("select name from tblLuuMK where num='1'", 0);
                 //phan quyen
-                temp = con.GetDataTable("select * from PhanQuyen where Username like '" + user + "'");
+                temp = con.GetDataTable("select * from tblPhanQuyen where Username like '" + user + "'");
 
             }
             catch (Exception ex)

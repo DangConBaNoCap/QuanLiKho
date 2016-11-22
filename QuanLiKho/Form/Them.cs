@@ -410,8 +410,7 @@ namespace QuanLiKho
                 }
                 XtraMessageBox.Show("Đã thêm!");
                 DateTime currentTime = DateTime.Now;
-                con.ThucThiCauLenhSQL("insert into tblNhatKi (NKTen,NKTacVu,NKNgay,NKUser) values (N'Đơn Vị',N'Thêm','" +
-                    string.Format("{0:yyyy/MM/dd HH:mm:ss}", currentTime) + "',N'" + lbNameUser + "')");
+               
             }
             else if (state == "KhachHang")
             {
@@ -879,7 +878,7 @@ namespace QuanLiKho
             //lay user hien tai
             string user = con.GetValue("select name from tblLuuMK where num='1'", 0);
             //phan quyen
-            DataTable temp = con.GetDataTable("select * from PhanQuyen where Username like '" + user + "'");
+            DataTable temp = con.GetDataTable("select * from tblPhanQuyen where Username like '" + user + "'");
 
             if (temp.Rows[0][2].ToString().Trim() == "False")
             {
