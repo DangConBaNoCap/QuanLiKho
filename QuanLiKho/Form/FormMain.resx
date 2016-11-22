@@ -5427,32 +5427,11 @@
   <data name="ribbonControl1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="ribbonPageGroupQLK.Text" xml:space="preserve">
-    <value>Quản Lí Kho</value>
-  </data>
-  <data name="ribbonPageGroupTI.Text" xml:space="preserve">
-    <value>Tiện Ích</value>
-  </data>
   <data name="ribbonPageKH.Text" xml:space="preserve">
     <value>Kho Hàng</value>
   </data>
-  <data name="ribbonPageGroupDT.Text" xml:space="preserve">
-    <value>Đối Tác</value>
-  </data>
-  <data name="ribbonPageGroupKH.Text" xml:space="preserve">
-    <value>Kho Hàng</value>
-  </data>
-  <data name="ribbonPageGroupTC.Text" xml:space="preserve">
-    <value>Tổ Chức</value>
-  </data>
   <data name="ribbonPageDM.Text" xml:space="preserve">
     <value>Danh Mục</value>
-  </data>
-  <data name="ribbonPageGroupHeThong.Text" xml:space="preserve">
-    <value>Hệ Thống</value>
-  </data>
-  <data name="ribbonPageGroupBaoMat.Text" xml:space="preserve">
-    <value>Bảo Mật</value>
   </data>
   <data name="ribbonPageHT.Text" xml:space="preserve">
     <value>Hệ Thống</value>
@@ -5489,6 +5468,27 @@
   </data>
   <data name="&gt;&gt;ribbonControl1.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="ribbonPageGroupQLK.Text" xml:space="preserve">
+    <value>Quản Lí Kho</value>
+  </data>
+  <data name="ribbonPageGroupTI.Text" xml:space="preserve">
+    <value>Tiện Ích</value>
+  </data>
+  <data name="ribbonPageGroupDT.Text" xml:space="preserve">
+    <value>Đối Tác</value>
+  </data>
+  <data name="ribbonPageGroupKH.Text" xml:space="preserve">
+    <value>Kho Hàng</value>
+  </data>
+  <data name="ribbonPageGroupTC.Text" xml:space="preserve">
+    <value>Tổ Chức</value>
+  </data>
+  <data name="ribbonPageGroupHeThong.Text" xml:space="preserve">
+    <value>Hệ Thống</value>
+  </data>
+  <data name="ribbonPageGroupBaoMat.Text" xml:space="preserve">
+    <value>Bảo Mật</value>
   </data>
   <data name="btnThem.AutoHeight" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -5580,6 +5580,48 @@
   </data>
   <data name="&gt;&gt;lbNameUser.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnXoaNhatKi.Name" xml:space="preserve">
+    <value>btnXoaNhatKi</value>
+  </data>
+  <data name="&gt;&gt;btnXoaNhatKi.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnXoaNhatKi.Parent" xml:space="preserve">
+    <value>xtraTPNhatKi</value>
+  </data>
+  <data name="&gt;&gt;btnXoaNhatKi.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;gridControlNhatKi.Name" xml:space="preserve">
+    <value>gridControlNhatKi</value>
+  </data>
+  <data name="&gt;&gt;gridControlNhatKi.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridControlNhatKi.Parent" xml:space="preserve">
+    <value>xtraTPNhatKi</value>
+  </data>
+  <data name="&gt;&gt;gridControlNhatKi.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="xtraTPNhatKi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1352, 576</value>
+  </data>
+  <data name="xtraTPNhatKi.Text" xml:space="preserve">
+    <value>Nhật Kí Hệ Thống</value>
+  </data>
+  <data name="&gt;&gt;xtraTPNhatKi.Name" xml:space="preserve">
+    <value>xtraTPNhatKi</value>
+  </data>
+  <data name="&gt;&gt;xtraTPNhatKi.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTPNhatKi.Parent" xml:space="preserve">
+    <value>xtraTabMain</value>
+  </data>
+  <data name="&gt;&gt;xtraTPNhatKi.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="btnXoaNhatKi.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -5720,26 +5762,170 @@
   <data name="&gt;&gt;gridControlNhatKi.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="xtraTPNhatKi.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="&gt;&gt;groupControl5.Name" xml:space="preserve">
+    <value>groupControl5</value>
+  </data>
+  <data name="&gt;&gt;groupControl5.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupControl5.Parent" xml:space="preserve">
+    <value>xtraTPNhanVien</value>
+  </data>
+  <data name="&gt;&gt;groupControl5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xtraTPNhanVien.Size" type="System.Drawing.Size, System.Drawing">
     <value>1352, 576</value>
   </data>
-  <data name="xtraTPNhatKi.Text" xml:space="preserve">
-    <value>Nhật Kí Hệ Thống</value>
+  <data name="xtraTPNhanVien.Text" xml:space="preserve">
+    <value>Nhân Viên</value>
   </data>
-  <data name="&gt;&gt;xtraTPNhatKi.Name" xml:space="preserve">
-    <value>xtraTPNhatKi</value>
+  <data name="&gt;&gt;xtraTPNhanVien.Name" xml:space="preserve">
+    <value>xtraTPNhanVien</value>
   </data>
-  <data name="&gt;&gt;xtraTPNhatKi.Type" xml:space="preserve">
+  <data name="&gt;&gt;xtraTPNhanVien.Type" xml:space="preserve">
     <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;xtraTPNhatKi.Parent" xml:space="preserve">
+  <data name="&gt;&gt;xtraTPNhanVien.Parent" xml:space="preserve">
     <value>xtraTabMain</value>
   </data>
-  <data name="&gt;&gt;xtraTPNhatKi.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="&gt;&gt;xtraTPNhanVien.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="groupControl5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;simpleButton13.Name" xml:space="preserve">
+    <value>simpleButton13</value>
+  </data>
+  <data name="&gt;&gt;simpleButton13.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton13.Parent" xml:space="preserve">
+    <value>groupControl5</value>
+  </data>
+  <data name="&gt;&gt;simpleButton13.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;simpleButton14.Name" xml:space="preserve">
+    <value>simpleButton14</value>
+  </data>
+  <data name="&gt;&gt;simpleButton14.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton14.Parent" xml:space="preserve">
+    <value>groupControl5</value>
+  </data>
+  <data name="&gt;&gt;simpleButton14.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBP.Name" xml:space="preserve">
+    <value>comboBP</value>
+  </data>
+  <data name="&gt;&gt;comboBP.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBP.Parent" xml:space="preserve">
+    <value>groupControl5</value>
+  </data>
+  <data name="&gt;&gt;comboBP.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;labelControl20.Name" xml:space="preserve">
+    <value>labelControl20</value>
+  </data>
+  <data name="&gt;&gt;labelControl20.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl20.Parent" xml:space="preserve">
+    <value>groupControl5</value>
+  </data>
+  <data name="&gt;&gt;labelControl20.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;gridControlNhanVien.Name" xml:space="preserve">
+    <value>gridControlNhanVien</value>
+  </data>
+  <data name="&gt;&gt;gridControlNhanVien.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridControlNhanVien.Parent" xml:space="preserve">
+    <value>groupControl5</value>
+  </data>
+  <data name="&gt;&gt;gridControlNhanVien.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnNewNhanVien.Name" xml:space="preserve">
+    <value>btnNewNhanVien</value>
+  </data>
+  <data name="&gt;&gt;btnNewNhanVien.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnNewNhanVien.Parent" xml:space="preserve">
+    <value>groupControl5</value>
+  </data>
+  <data name="&gt;&gt;btnNewNhanVien.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnRefeshNV.Name" xml:space="preserve">
+    <value>btnRefeshNV</value>
+  </data>
+  <data name="&gt;&gt;btnRefeshNV.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnRefeshNV.Parent" xml:space="preserve">
+    <value>groupControl5</value>
+  </data>
+  <data name="&gt;&gt;btnRefeshNV.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnXoaNV.Name" xml:space="preserve">
+    <value>btnXoaNV</value>
+  </data>
+  <data name="&gt;&gt;btnXoaNV.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnXoaNV.Parent" xml:space="preserve">
+    <value>groupControl5</value>
+  </data>
+  <data name="&gt;&gt;btnXoaNV.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnThemNV.Name" xml:space="preserve">
+    <value>btnThemNV</value>
+  </data>
+  <data name="&gt;&gt;btnThemNV.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnThemNV.Parent" xml:space="preserve">
+    <value>groupControl5</value>
+  </data>
+  <data name="&gt;&gt;btnThemNV.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="groupControl5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="groupControl5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1352, 436</value>
+  </data>
+  <data name="groupControl5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupControl5.Text" xml:space="preserve">
+    <value>Thông Tin Chi Tiết</value>
+  </data>
+  <data name="&gt;&gt;groupControl5.Name" xml:space="preserve">
+    <value>groupControl5</value>
+  </data>
+  <data name="&gt;&gt;groupControl5.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupControl5.Parent" xml:space="preserve">
+    <value>xtraTPNhanVien</value>
+  </data>
+  <data name="&gt;&gt;groupControl5.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="simpleButton13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -6254,48 +6440,6 @@
   <data name="&gt;&gt;btnThemNV.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="groupControl5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="groupControl5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1352, 436</value>
-  </data>
-  <data name="groupControl5.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="groupControl5.Text" xml:space="preserve">
-    <value>Thông Tin Chi Tiết</value>
-  </data>
-  <data name="&gt;&gt;groupControl5.Name" xml:space="preserve">
-    <value>groupControl5</value>
-  </data>
-  <data name="&gt;&gt;groupControl5.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;groupControl5.Parent" xml:space="preserve">
-    <value>xtraTPNhanVien</value>
-  </data>
-  <data name="&gt;&gt;groupControl5.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="xtraTPNhanVien.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1352, 576</value>
-  </data>
-  <data name="xtraTPNhanVien.Text" xml:space="preserve">
-    <value>Nhân Viên</value>
-  </data>
-  <data name="&gt;&gt;xtraTPNhanVien.Name" xml:space="preserve">
-    <value>xtraTPNhanVien</value>
-  </data>
-  <data name="&gt;&gt;xtraTPNhanVien.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;xtraTPNhanVien.Parent" xml:space="preserve">
-    <value>xtraTabMain</value>
-  </data>
-  <data name="&gt;&gt;xtraTPNhanVien.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
   <data name="NPPMa.Caption" xml:space="preserve">
     <value>Mã NPP</value>
   </data>
@@ -6446,8 +6590,122 @@
   <data name="gridView2.ViewCaption" xml:space="preserve">
     <value>Thông Tin</value>
   </data>
+  <data name="&gt;&gt;groupControl3.Name" xml:space="preserve">
+    <value>groupControl3</value>
+  </data>
+  <data name="&gt;&gt;groupControl3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupControl3.Parent" xml:space="preserve">
+    <value>xtrapTPBoPhan</value>
+  </data>
+  <data name="&gt;&gt;groupControl3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="xtrapTPBoPhan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1352, 576</value>
+  </data>
+  <data name="xtrapTPBoPhan.Text" xml:space="preserve">
+    <value>Bộ Phận</value>
+  </data>
+  <data name="&gt;&gt;xtrapTPBoPhan.Name" xml:space="preserve">
+    <value>xtrapTPBoPhan</value>
+  </data>
+  <data name="&gt;&gt;xtrapTPBoPhan.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtrapTPBoPhan.Parent" xml:space="preserve">
+    <value>xtraTabMain</value>
+  </data>
+  <data name="&gt;&gt;xtrapTPBoPhan.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
   <data name="groupControl3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;gridControlBoPhan.Name" xml:space="preserve">
+    <value>gridControlBoPhan</value>
+  </data>
+  <data name="&gt;&gt;gridControlBoPhan.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridControlBoPhan.Parent" xml:space="preserve">
+    <value>groupControl3</value>
+  </data>
+  <data name="&gt;&gt;gridControlBoPhan.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnNewBP.Name" xml:space="preserve">
+    <value>btnNewBP</value>
+  </data>
+  <data name="&gt;&gt;btnNewBP.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnNewBP.Parent" xml:space="preserve">
+    <value>groupControl3</value>
+  </data>
+  <data name="&gt;&gt;btnNewBP.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnRefeshBP.Name" xml:space="preserve">
+    <value>btnRefeshBP</value>
+  </data>
+  <data name="&gt;&gt;btnRefeshBP.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnRefeshBP.Parent" xml:space="preserve">
+    <value>groupControl3</value>
+  </data>
+  <data name="&gt;&gt;btnRefeshBP.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnXoaBP.Name" xml:space="preserve">
+    <value>btnXoaBP</value>
+  </data>
+  <data name="&gt;&gt;btnXoaBP.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnXoaBP.Parent" xml:space="preserve">
+    <value>groupControl3</value>
+  </data>
+  <data name="&gt;&gt;btnXoaBP.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnThemBP.Name" xml:space="preserve">
+    <value>btnThemBP</value>
+  </data>
+  <data name="&gt;&gt;btnThemBP.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnThemBP.Parent" xml:space="preserve">
+    <value>groupControl3</value>
+  </data>
+  <data name="&gt;&gt;btnThemBP.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupControl3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="groupControl3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1354, 436</value>
+  </data>
+  <data name="groupControl3.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupControl3.Text" xml:space="preserve">
+    <value>Thông Tin Chi Tiết</value>
+  </data>
+  <data name="&gt;&gt;groupControl3.Name" xml:space="preserve">
+    <value>groupControl3</value>
+  </data>
+  <data name="&gt;&gt;groupControl3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupControl3.Parent" xml:space="preserve">
+    <value>xtrapTPBoPhan</value>
+  </data>
+  <data name="&gt;&gt;groupControl3.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="gridControlBoPhan.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -6739,50 +6997,110 @@
   <data name="&gt;&gt;btnThemBP.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="groupControl3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+  <data name="&gt;&gt;groupControl1.Name" xml:space="preserve">
+    <value>groupControl1</value>
   </data>
-  <data name="groupControl3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1354, 436</value>
-  </data>
-  <data name="groupControl3.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="groupControl3.Text" xml:space="preserve">
-    <value>Thông Tin Chi Tiết</value>
-  </data>
-  <data name="&gt;&gt;groupControl3.Name" xml:space="preserve">
-    <value>groupControl3</value>
-  </data>
-  <data name="&gt;&gt;groupControl3.Type" xml:space="preserve">
+  <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
     <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;groupControl3.Parent" xml:space="preserve">
-    <value>xtrapTPBoPhan</value>
+  <data name="&gt;&gt;groupControl1.Parent" xml:space="preserve">
+    <value>xtraTPPhanQuyen</value>
   </data>
-  <data name="&gt;&gt;groupControl3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;groupControl1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="xtrapTPBoPhan.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="xtraTPPhanQuyen.Size" type="System.Drawing.Size, System.Drawing">
     <value>1352, 576</value>
   </data>
-  <data name="xtrapTPBoPhan.Text" xml:space="preserve">
-    <value>Bộ Phận</value>
+  <data name="xtraTPPhanQuyen.Text" xml:space="preserve">
+    <value>Phân Quyền</value>
   </data>
-  <data name="&gt;&gt;xtrapTPBoPhan.Name" xml:space="preserve">
-    <value>xtrapTPBoPhan</value>
+  <data name="&gt;&gt;xtraTPPhanQuyen.Name" xml:space="preserve">
+    <value>xtraTPPhanQuyen</value>
   </data>
-  <data name="&gt;&gt;xtrapTPBoPhan.Type" xml:space="preserve">
+  <data name="&gt;&gt;xtraTPPhanQuyen.Type" xml:space="preserve">
     <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;xtrapTPBoPhan.Parent" xml:space="preserve">
+  <data name="&gt;&gt;xtraTPPhanQuyen.Parent" xml:space="preserve">
     <value>xtraTabMain</value>
   </data>
-  <data name="&gt;&gt;xtrapTPBoPhan.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;xtraTPPhanQuyen.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="groupControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;btnXoaTK.Name" xml:space="preserve">
+    <value>btnXoaTK</value>
+  </data>
+  <data name="&gt;&gt;btnXoaTK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnXoaTK.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;btnXoaTK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnSuaTK.Name" xml:space="preserve">
+    <value>btnSuaTK</value>
+  </data>
+  <data name="&gt;&gt;btnSuaTK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnSuaTK.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;btnSuaTK.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnThemTK.Name" xml:space="preserve">
+    <value>btnThemTK</value>
+  </data>
+  <data name="&gt;&gt;btnThemTK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnThemTK.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;btnThemTK.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gridControlTTTK.Name" xml:space="preserve">
+    <value>gridControlTTTK</value>
+  </data>
+  <data name="&gt;&gt;gridControlTTTK.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridControlTTTK.Parent" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;gridControlTTTK.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="groupControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1352, 435</value>
+  </data>
+  <data name="groupControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="groupControl1.Text" xml:space="preserve">
+    <value>Thông Tin Tài Khoản</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Name" xml:space="preserve">
+    <value>groupControl1</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.Parent" xml:space="preserve">
+    <value>xtraTPPhanQuyen</value>
+  </data>
+  <data name="&gt;&gt;groupControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="btnXoaTK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -7025,48 +7343,6 @@
   <data name="&gt;&gt;gridControlTTTK.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="groupControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 4</value>
-  </data>
-  <data name="groupControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1352, 435</value>
-  </data>
-  <data name="groupControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="groupControl1.Text" xml:space="preserve">
-    <value>Thông Tin Tài Khoản</value>
-  </data>
-  <data name="&gt;&gt;groupControl1.Name" xml:space="preserve">
-    <value>groupControl1</value>
-  </data>
-  <data name="&gt;&gt;groupControl1.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;groupControl1.Parent" xml:space="preserve">
-    <value>xtraTPPhanQuyen</value>
-  </data>
-  <data name="&gt;&gt;groupControl1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="xtraTPPhanQuyen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1352, 576</value>
-  </data>
-  <data name="xtraTPPhanQuyen.Text" xml:space="preserve">
-    <value>Phân Quyền</value>
-  </data>
-  <data name="&gt;&gt;xtraTPPhanQuyen.Name" xml:space="preserve">
-    <value>xtraTPPhanQuyen</value>
-  </data>
-  <data name="&gt;&gt;xtraTPPhanQuyen.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;xtraTPPhanQuyen.Parent" xml:space="preserve">
-    <value>xtraTabMain</value>
-  </data>
-  <data name="&gt;&gt;xtraTPPhanQuyen.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
   <data name="gridColumnTenHangXK.Caption" xml:space="preserve">
     <value>Tên Hàng</value>
   </data>
@@ -7273,6 +7549,192 @@
   </data>
   <data name="gridView6.ViewCaption" xml:space="preserve">
     <value>Thông Tin</value>
+  </data>
+  <data name="&gt;&gt;gridHHXK.Name" xml:space="preserve">
+    <value>gridHHXK</value>
+  </data>
+  <data name="&gt;&gt;gridHHXK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridHHXK.Parent" xml:space="preserve">
+    <value>BDXK</value>
+  </data>
+  <data name="&gt;&gt;gridHHXK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;comboxDateXK.Name" xml:space="preserve">
+    <value>comboxDateXK</value>
+  </data>
+  <data name="&gt;&gt;comboxDateXK.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboxDateXK.Parent" xml:space="preserve">
+    <value>BDXK</value>
+  </data>
+  <data name="&gt;&gt;comboxDateXK.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnNowXK.Name" xml:space="preserve">
+    <value>btnNowXK</value>
+  </data>
+  <data name="&gt;&gt;btnNowXK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnNowXK.Parent" xml:space="preserve">
+    <value>BDXK</value>
+  </data>
+  <data name="&gt;&gt;btnNowXK.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnRightXK.Name" xml:space="preserve">
+    <value>btnRightXK</value>
+  </data>
+  <data name="&gt;&gt;btnRightXK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnRightXK.Parent" xml:space="preserve">
+    <value>BDXK</value>
+  </data>
+  <data name="&gt;&gt;btnRightXK.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnYesterXK.Name" xml:space="preserve">
+    <value>btnYesterXK</value>
+  </data>
+  <data name="&gt;&gt;btnYesterXK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnYesterXK.Parent" xml:space="preserve">
+    <value>BDXK</value>
+  </data>
+  <data name="&gt;&gt;btnYesterXK.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnLeftXK.Name" xml:space="preserve">
+    <value>btnLeftXK</value>
+  </data>
+  <data name="&gt;&gt;btnLeftXK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnLeftXK.Parent" xml:space="preserve">
+    <value>BDXK</value>
+  </data>
+  <data name="&gt;&gt;btnLeftXK.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;chartXK.Name" xml:space="preserve">
+    <value>chartXK</value>
+  </data>
+  <data name="&gt;&gt;chartXK.Type" xml:space="preserve">
+    <value>DevExpress.XtraCharts.ChartControl, DevExpress.XtraCharts.v14.2.UI, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chartXK.Parent" xml:space="preserve">
+    <value>BDXK</value>
+  </data>
+  <data name="&gt;&gt;chartXK.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;gridHH.Name" xml:space="preserve">
+    <value>gridHH</value>
+  </data>
+  <data name="&gt;&gt;gridHH.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridHH.Parent" xml:space="preserve">
+    <value>BDXK</value>
+  </data>
+  <data name="&gt;&gt;gridHH.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;comboxDate.Name" xml:space="preserve">
+    <value>comboxDate</value>
+  </data>
+  <data name="&gt;&gt;comboxDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboxDate.Parent" xml:space="preserve">
+    <value>BDXK</value>
+  </data>
+  <data name="&gt;&gt;comboxDate.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btnNow.Name" xml:space="preserve">
+    <value>btnNow</value>
+  </data>
+  <data name="&gt;&gt;btnNow.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnNow.Parent" xml:space="preserve">
+    <value>BDXK</value>
+  </data>
+  <data name="&gt;&gt;btnNow.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;btnRight.Name" xml:space="preserve">
+    <value>btnRight</value>
+  </data>
+  <data name="&gt;&gt;btnRight.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnRight.Parent" xml:space="preserve">
+    <value>BDXK</value>
+  </data>
+  <data name="&gt;&gt;btnRight.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnYester.Name" xml:space="preserve">
+    <value>btnYester</value>
+  </data>
+  <data name="&gt;&gt;btnYester.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnYester.Parent" xml:space="preserve">
+    <value>BDXK</value>
+  </data>
+  <data name="&gt;&gt;btnYester.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnLeft.Name" xml:space="preserve">
+    <value>btnLeft</value>
+  </data>
+  <data name="&gt;&gt;btnLeft.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnLeft.Parent" xml:space="preserve">
+    <value>BDXK</value>
+  </data>
+  <data name="&gt;&gt;btnLeft.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;chartNK.Name" xml:space="preserve">
+    <value>chartNK</value>
+  </data>
+  <data name="&gt;&gt;chartNK.Type" xml:space="preserve">
+    <value>DevExpress.XtraCharts.ChartControl, DevExpress.XtraCharts.v14.2.UI, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;chartNK.Parent" xml:space="preserve">
+    <value>BDXK</value>
+  </data>
+  <data name="&gt;&gt;chartNK.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="BDXK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1352, 576</value>
+  </data>
+  <data name="BDXK.Text" xml:space="preserve">
+    <value>Tổng Hợp Kho</value>
+  </data>
+  <data name="&gt;&gt;BDXK.Name" xml:space="preserve">
+    <value>BDXK</value>
+  </data>
+  <data name="&gt;&gt;BDXK.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;BDXK.Parent" xml:space="preserve">
+    <value>xtraTabMain</value>
+  </data>
+  <data name="&gt;&gt;BDXK.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="gridHHXK.Location" type="System.Drawing.Point, System.Drawing">
     <value>1208, 301</value>
@@ -7856,24 +8318,6 @@
   <data name="&gt;&gt;chartNK.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="BDXK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1352, 576</value>
-  </data>
-  <data name="BDXK.Text" xml:space="preserve">
-    <value>Tổng Hợp Kho</value>
-  </data>
-  <data name="&gt;&gt;BDXK.Name" xml:space="preserve">
-    <value>BDXK</value>
-  </data>
-  <data name="&gt;&gt;BDXK.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;BDXK.Parent" xml:space="preserve">
-    <value>xtraTabMain</value>
-  </data>
-  <data name="&gt;&gt;BDXK.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
   <data name="gridControlTK.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
@@ -7910,6 +8354,144 @@
   </data>
   <data name="gridView8.GroupSummary3" xml:space="preserve">
     <value />
+  </data>
+  <data name="&gt;&gt;simpleButton5.Name" xml:space="preserve">
+    <value>simpleButton5</value>
+  </data>
+  <data name="&gt;&gt;simpleButton5.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton5.Parent" xml:space="preserve">
+    <value>xtraTPBaoCao</value>
+  </data>
+  <data name="&gt;&gt;simpleButton5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;simpleButton10.Name" xml:space="preserve">
+    <value>simpleButton10</value>
+  </data>
+  <data name="&gt;&gt;simpleButton10.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton10.Parent" xml:space="preserve">
+    <value>xtraTPBaoCao</value>
+  </data>
+  <data name="&gt;&gt;simpleButton10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>xtraTPBaoCao</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gridHHBC.Name" xml:space="preserve">
+    <value>gridHHBC</value>
+  </data>
+  <data name="&gt;&gt;gridHHBC.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridHHBC.Parent" xml:space="preserve">
+    <value>xtraTPBaoCao</value>
+  </data>
+  <data name="&gt;&gt;gridHHBC.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;labelControl12.Name" xml:space="preserve">
+    <value>labelControl12</value>
+  </data>
+  <data name="&gt;&gt;labelControl12.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl12.Parent" xml:space="preserve">
+    <value>xtraTPBaoCao</value>
+  </data>
+  <data name="&gt;&gt;labelControl12.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;labelControl9.Name" xml:space="preserve">
+    <value>labelControl9</value>
+  </data>
+  <data name="&gt;&gt;labelControl9.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl9.Parent" xml:space="preserve">
+    <value>xtraTPBaoCao</value>
+  </data>
+  <data name="&gt;&gt;labelControl9.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dateEditDen.Name" xml:space="preserve">
+    <value>dateEditDen</value>
+  </data>
+  <data name="&gt;&gt;dateEditDen.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dateEditDen.Parent" xml:space="preserve">
+    <value>xtraTPBaoCao</value>
+  </data>
+  <data name="&gt;&gt;dateEditDen.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;dateEditTu.Name" xml:space="preserve">
+    <value>dateEditTu</value>
+  </data>
+  <data name="&gt;&gt;dateEditTu.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dateEditTu.Parent" xml:space="preserve">
+    <value>xtraTPBaoCao</value>
+  </data>
+  <data name="&gt;&gt;dateEditTu.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;gridControlBaoCao.Name" xml:space="preserve">
+    <value>gridControlBaoCao</value>
+  </data>
+  <data name="&gt;&gt;gridControlBaoCao.Type" xml:space="preserve">
+    <value>DevExpress.XtraGrid.GridControl, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridControlBaoCao.Parent" xml:space="preserve">
+    <value>xtraTPBaoCao</value>
+  </data>
+  <data name="&gt;&gt;gridControlBaoCao.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;navBarControl3.Name" xml:space="preserve">
+    <value>navBarControl3</value>
+  </data>
+  <data name="&gt;&gt;navBarControl3.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarControl, DevExpress.XtraNavBar.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarControl3.Parent" xml:space="preserve">
+    <value>xtraTPBaoCao</value>
+  </data>
+  <data name="&gt;&gt;navBarControl3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="xtraTPBaoCao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1352, 576</value>
+  </data>
+  <data name="xtraTPBaoCao.Text" xml:space="preserve">
+    <value>Báo Cáo</value>
+  </data>
+  <data name="&gt;&gt;xtraTPBaoCao.Name" xml:space="preserve">
+    <value>xtraTPBaoCao</value>
+  </data>
+  <data name="&gt;&gt;xtraTPBaoCao.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTPBaoCao.Parent" xml:space="preserve">
+    <value>xtraTabMain</value>
+  </data>
+  <data name="&gt;&gt;xtraTPBaoCao.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="simpleButton5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -8242,35 +8824,14 @@
   <data name="navBarGroup2.Caption" xml:space="preserve">
     <value>Nhập Kho</value>
   </data>
-  <data name="navNhapTH.Caption" xml:space="preserve">
-    <value>Nhập Kho Tổng Hợp</value>
-  </data>
-  <data name="navNhapNgay.Caption" xml:space="preserve">
-    <value>Nhập Kho Theo Ngày</value>
-  </data>
-  <data name="navNhapHH.Caption" xml:space="preserve">
-    <value>Nhập Kho Theo Hàng Hóa</value>
-  </data>
   <data name="navBarControl3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
   </data>
   <data name="navBarGroup3.Caption" xml:space="preserve">
     <value>Xuất Kho</value>
   </data>
-  <data name="navXuatTH.Caption" xml:space="preserve">
-    <value>Xuất Kho Tổng Hợp</value>
-  </data>
-  <data name="navXuatNgay.Caption" xml:space="preserve">
-    <value>Xuất Kho Theo Ngày</value>
-  </data>
-  <data name="navXuatHH.Caption" xml:space="preserve">
-    <value>Xuất Kho Theo Hàng Hóa</value>
-  </data>
   <data name="navBarGroup1.Caption" xml:space="preserve">
     <value>Kiểm Kê</value>
-  </data>
-  <data name="navBarItem16.Caption" xml:space="preserve">
-    <value>Kiểm Kê Tổng Hợp</value>
   </data>
   <data name="navTonTH.Caption" xml:space="preserve">
     <value>Tồn Tổng Hợp</value>
@@ -8289,6 +8850,27 @@
   </data>
   <data name="navTonKho.Caption" xml:space="preserve">
     <value>Tồn Theo Kho</value>
+  </data>
+  <data name="navNhapTH.Caption" xml:space="preserve">
+    <value>Nhập Kho Tổng Hợp</value>
+  </data>
+  <data name="navNhapNgay.Caption" xml:space="preserve">
+    <value>Nhập Kho Theo Ngày</value>
+  </data>
+  <data name="navNhapHH.Caption" xml:space="preserve">
+    <value>Nhập Kho Theo Hàng Hóa</value>
+  </data>
+  <data name="navXuatTH.Caption" xml:space="preserve">
+    <value>Xuất Kho Tổng Hợp</value>
+  </data>
+  <data name="navXuatNgay.Caption" xml:space="preserve">
+    <value>Xuất Kho Theo Ngày</value>
+  </data>
+  <data name="navXuatHH.Caption" xml:space="preserve">
+    <value>Xuất Kho Theo Hàng Hóa</value>
+  </data>
+  <data name="navBarItem16.Caption" xml:space="preserve">
+    <value>Kiểm Kê Tổng Hợp</value>
   </data>
   <data name="navBarControl3.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 4</value>
@@ -8317,23 +8899,119 @@
   <data name="&gt;&gt;navBarControl3.ZOrder" xml:space="preserve">
     <value>9</value>
   </data>
-  <data name="xtraTPBaoCao.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="&gt;&gt;simpleButton8.Name" xml:space="preserve">
+    <value>simpleButton8</value>
+  </data>
+  <data name="&gt;&gt;simpleButton8.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton8.Parent" xml:space="preserve">
+    <value>xtraTPTonKho</value>
+  </data>
+  <data name="&gt;&gt;simpleButton8.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;simpleButton9.Name" xml:space="preserve">
+    <value>simpleButton9</value>
+  </data>
+  <data name="&gt;&gt;simpleButton9.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton9.Parent" xml:space="preserve">
+    <value>xtraTPTonKho</value>
+  </data>
+  <data name="&gt;&gt;simpleButton9.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lbName.Name" xml:space="preserve">
+    <value>lbName</value>
+  </data>
+  <data name="&gt;&gt;lbName.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;lbName.Parent" xml:space="preserve">
+    <value>xtraTPTonKho</value>
+  </data>
+  <data name="&gt;&gt;lbName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;gridKho.Name" xml:space="preserve">
+    <value>gridKho</value>
+  </data>
+  <data name="&gt;&gt;gridKho.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridKho.Parent" xml:space="preserve">
+    <value>xtraTPTonKho</value>
+  </data>
+  <data name="&gt;&gt;gridKho.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;gridNhom.Name" xml:space="preserve">
+    <value>gridNhom</value>
+  </data>
+  <data name="&gt;&gt;gridNhom.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridNhom.Parent" xml:space="preserve">
+    <value>xtraTPTonKho</value>
+  </data>
+  <data name="&gt;&gt;gridNhom.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;gridNPP.Name" xml:space="preserve">
+    <value>gridNPP</value>
+  </data>
+  <data name="&gt;&gt;gridNPP.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridNPP.Parent" xml:space="preserve">
+    <value>xtraTPTonKho</value>
+  </data>
+  <data name="&gt;&gt;gridNPP.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;gridHangHoa.Name" xml:space="preserve">
+    <value>gridHangHoa</value>
+  </data>
+  <data name="&gt;&gt;gridHangHoa.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridHangHoa.Parent" xml:space="preserve">
+    <value>xtraTPTonKho</value>
+  </data>
+  <data name="&gt;&gt;gridHangHoa.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;navBarControl4.Name" xml:space="preserve">
+    <value>navBarControl4</value>
+  </data>
+  <data name="&gt;&gt;navBarControl4.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarControl, DevExpress.XtraNavBar.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarControl4.Parent" xml:space="preserve">
+    <value>xtraTPTonKho</value>
+  </data>
+  <data name="&gt;&gt;navBarControl4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="xtraTPTonKho.Size" type="System.Drawing.Size, System.Drawing">
     <value>1352, 576</value>
   </data>
-  <data name="xtraTPBaoCao.Text" xml:space="preserve">
-    <value>Báo Cáo</value>
+  <data name="xtraTPTonKho.Text" xml:space="preserve">
+    <value>Tồn Kho</value>
   </data>
-  <data name="&gt;&gt;xtraTPBaoCao.Name" xml:space="preserve">
-    <value>xtraTPBaoCao</value>
+  <data name="&gt;&gt;xtraTPTonKho.Name" xml:space="preserve">
+    <value>xtraTPTonKho</value>
   </data>
-  <data name="&gt;&gt;xtraTPBaoCao.Type" xml:space="preserve">
+  <data name="&gt;&gt;xtraTPTonKho.Type" xml:space="preserve">
     <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;xtraTPBaoCao.Parent" xml:space="preserve">
+  <data name="&gt;&gt;xtraTPTonKho.Parent" xml:space="preserve">
     <value>xtraTabMain</value>
   </data>
-  <data name="&gt;&gt;xtraTPBaoCao.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;xtraTPTonKho.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="simpleButton8.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -8591,6 +9269,9 @@
   <data name="navBarGroup5.Caption" xml:space="preserve">
     <value>Tồn Kho</value>
   </data>
+  <data name="navBarControl4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
   <data name="navBarItem15.Caption" xml:space="preserve">
     <value>Tồn Tổng Hợp</value>
   </data>
@@ -8605,9 +9286,6 @@
   </data>
   <data name="navBarItem20.Caption" xml:space="preserve">
     <value>Tồn Theo Kho</value>
-  </data>
-  <data name="navBarControl4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left</value>
   </data>
   <data name="navBarItem21.Caption" xml:space="preserve">
     <value>Nhập Kho Tổng Hợp</value>
@@ -8654,23 +9332,119 @@
   <data name="&gt;&gt;navBarControl4.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="xtraTPTonKho.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="&gt;&gt;simpleButton3.Name" xml:space="preserve">
+    <value>simpleButton3</value>
+  </data>
+  <data name="&gt;&gt;simpleButton3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton3.Parent" xml:space="preserve">
+    <value>xtraTPXuaKho</value>
+  </data>
+  <data name="&gt;&gt;simpleButton3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;simpleButton7.Name" xml:space="preserve">
+    <value>simpleButton7</value>
+  </data>
+  <data name="&gt;&gt;simpleButton7.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton7.Parent" xml:space="preserve">
+    <value>xtraTPXuaKho</value>
+  </data>
+  <data name="&gt;&gt;simpleButton7.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;navBarControl2.Name" xml:space="preserve">
+    <value>navBarControl2</value>
+  </data>
+  <data name="&gt;&gt;navBarControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarControl, DevExpress.XtraNavBar.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navBarControl2.Parent" xml:space="preserve">
+    <value>xtraTPXuaKho</value>
+  </data>
+  <data name="&gt;&gt;navBarControl2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnNewXK.Name" xml:space="preserve">
+    <value>btnNewXK</value>
+  </data>
+  <data name="&gt;&gt;btnNewXK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnNewXK.Parent" xml:space="preserve">
+    <value>xtraTPXuaKho</value>
+  </data>
+  <data name="&gt;&gt;btnNewXK.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnRefeshXK.Name" xml:space="preserve">
+    <value>btnRefeshXK</value>
+  </data>
+  <data name="&gt;&gt;btnRefeshXK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnRefeshXK.Parent" xml:space="preserve">
+    <value>xtraTPXuaKho</value>
+  </data>
+  <data name="&gt;&gt;btnRefeshXK.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnCancelXK.Name" xml:space="preserve">
+    <value>btnCancelXK</value>
+  </data>
+  <data name="&gt;&gt;btnCancelXK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnCancelXK.Parent" xml:space="preserve">
+    <value>xtraTPXuaKho</value>
+  </data>
+  <data name="&gt;&gt;btnCancelXK.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnOKXK.Name" xml:space="preserve">
+    <value>btnOKXK</value>
+  </data>
+  <data name="&gt;&gt;btnOKXK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnOKXK.Parent" xml:space="preserve">
+    <value>xtraTPXuaKho</value>
+  </data>
+  <data name="&gt;&gt;btnOKXK.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;groupTTKH.Name" xml:space="preserve">
+    <value>groupTTKH</value>
+  </data>
+  <data name="&gt;&gt;groupTTKH.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupTTKH.Parent" xml:space="preserve">
+    <value>xtraTPXuaKho</value>
+  </data>
+  <data name="&gt;&gt;groupTTKH.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="xtraTPXuaKho.Size" type="System.Drawing.Size, System.Drawing">
     <value>1352, 576</value>
   </data>
-  <data name="xtraTPTonKho.Text" xml:space="preserve">
-    <value>Tồn Kho</value>
+  <data name="xtraTPXuaKho.Text" xml:space="preserve">
+    <value>Xuất Kho</value>
   </data>
-  <data name="&gt;&gt;xtraTPTonKho.Name" xml:space="preserve">
-    <value>xtraTPTonKho</value>
+  <data name="&gt;&gt;xtraTPXuaKho.Name" xml:space="preserve">
+    <value>xtraTPXuaKho</value>
   </data>
-  <data name="&gt;&gt;xtraTPTonKho.Type" xml:space="preserve">
+  <data name="&gt;&gt;xtraTPXuaKho.Type" xml:space="preserve">
     <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
   </data>
-  <data name="&gt;&gt;xtraTPTonKho.Parent" xml:space="preserve">
+  <data name="&gt;&gt;xtraTPXuaKho.Parent" xml:space="preserve">
     <value>xtraTabMain</value>
   </data>
-  <data name="&gt;&gt;xtraTPTonKho.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;xtraTPXuaKho.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="simpleButton3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -8807,6 +9581,12 @@
   </data>
   <data name="navBarGroupThemXK.Caption" xml:space="preserve">
     <value>Thêm Dữ Liệu</value>
+  </data>
+  <data name="navBarControl2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="navBarGroupBKXXK.Caption" xml:space="preserve">
+    <value>Bảng Kê Xuất</value>
   </data>
   <data name="navBarItem8.Caption" xml:space="preserve">
     <value>Thêm HH</value>
@@ -8980,11 +9760,11 @@
         EU+Z+Gf0f8K1uCbXHmAO4Ln/AtsBVBHiG6MuAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="navBarControl2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left</value>
+  <data name="navBarItem13.Caption" xml:space="preserve">
+    <value>Ngày Bắt Đầu</value>
   </data>
-  <data name="navBarGroupBKXXK.Caption" xml:space="preserve">
-    <value>Bảng Kê Xuất</value>
+  <data name="navBarItem14.Caption" xml:space="preserve">
+    <value>navBarItem5</value>
   </data>
   <data name="navBarItem11.Caption" xml:space="preserve">
     <value>Theo Ngày Tháng</value>
@@ -9085,12 +9865,6 @@
         I0i+bFLJRnIMi2EvuRayzIsdIxgexUq6n8EYoCugrDZLB2PGafDkFP90csiwkfPIPbrk9NRDmwz75ken
         DmMGy4DCEmjQvuD0DWld0ySjSUlbGM0N+tZskzmiNpQZPEOZ3wCulDu5GBSzDgAAAABJRU5ErkJggg==
 </value>
-  </data>
-  <data name="navBarItem13.Caption" xml:space="preserve">
-    <value>Ngày Bắt Đầu</value>
-  </data>
-  <data name="navBarItem14.Caption" xml:space="preserve">
-    <value>navBarItem5</value>
   </data>
   <data name="navBarControl2.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 151</value>
@@ -9391,6 +10165,198 @@
   <data name="groupTTKH.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
+  <data name="&gt;&gt;labelControl10.Name" xml:space="preserve">
+    <value>labelControl10</value>
+  </data>
+  <data name="&gt;&gt;labelControl10.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl10.Parent" xml:space="preserve">
+    <value>groupTTKH</value>
+  </data>
+  <data name="&gt;&gt;labelControl10.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelControl11.Name" xml:space="preserve">
+    <value>labelControl11</value>
+  </data>
+  <data name="&gt;&gt;labelControl11.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl11.Parent" xml:space="preserve">
+    <value>groupTTKH</value>
+  </data>
+  <data name="&gt;&gt;labelControl11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupControl4.Name" xml:space="preserve">
+    <value>groupControl4</value>
+  </data>
+  <data name="&gt;&gt;groupControl4.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupControl4.Parent" xml:space="preserve">
+    <value>groupTTKH</value>
+  </data>
+  <data name="&gt;&gt;groupControl4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;simpleButton2.Name" xml:space="preserve">
+    <value>simpleButton2</value>
+  </data>
+  <data name="&gt;&gt;simpleButton2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton2.Parent" xml:space="preserve">
+    <value>groupTTKH</value>
+  </data>
+  <data name="&gt;&gt;simpleButton2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;labelControl15.Name" xml:space="preserve">
+    <value>labelControl15</value>
+  </data>
+  <data name="&gt;&gt;labelControl15.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl15.Parent" xml:space="preserve">
+    <value>groupTTKH</value>
+  </data>
+  <data name="&gt;&gt;labelControl15.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;labelControl16.Name" xml:space="preserve">
+    <value>labelControl16</value>
+  </data>
+  <data name="&gt;&gt;labelControl16.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl16.Parent" xml:space="preserve">
+    <value>groupTTKH</value>
+  </data>
+  <data name="&gt;&gt;labelControl16.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;labelControl17.Name" xml:space="preserve">
+    <value>labelControl17</value>
+  </data>
+  <data name="&gt;&gt;labelControl17.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl17.Parent" xml:space="preserve">
+    <value>groupTTKH</value>
+  </data>
+  <data name="&gt;&gt;labelControl17.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;labelControl18.Name" xml:space="preserve">
+    <value>labelControl18</value>
+  </data>
+  <data name="&gt;&gt;labelControl18.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl18.Parent" xml:space="preserve">
+    <value>groupTTKH</value>
+  </data>
+  <data name="&gt;&gt;labelControl18.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;gridLookUpEditTenXK.Name" xml:space="preserve">
+    <value>gridLookUpEditTenXK</value>
+  </data>
+  <data name="&gt;&gt;gridLookUpEditTenXK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridLookUpEditTenXK.Parent" xml:space="preserve">
+    <value>groupTTKH</value>
+  </data>
+  <data name="&gt;&gt;gridLookUpEditTenXK.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtDienThoaiXK.Name" xml:space="preserve">
+    <value>txtDienThoaiXK</value>
+  </data>
+  <data name="&gt;&gt;txtDienThoaiXK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtDienThoaiXK.Parent" xml:space="preserve">
+    <value>groupTTKH</value>
+  </data>
+  <data name="&gt;&gt;txtDienThoaiXK.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtMSTXK.Name" xml:space="preserve">
+    <value>txtMSTXK</value>
+  </data>
+  <data name="&gt;&gt;txtMSTXK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtMSTXK.Parent" xml:space="preserve">
+    <value>groupTTKH</value>
+  </data>
+  <data name="&gt;&gt;txtMSTXK.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;txtGhiChuXK.Name" xml:space="preserve">
+    <value>txtGhiChuXK</value>
+  </data>
+  <data name="&gt;&gt;txtGhiChuXK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtGhiChuXK.Parent" xml:space="preserve">
+    <value>groupTTKH</value>
+  </data>
+  <data name="&gt;&gt;txtGhiChuXK.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtDiaChiXk.Name" xml:space="preserve">
+    <value>txtDiaChiXk</value>
+  </data>
+  <data name="&gt;&gt;txtDiaChiXk.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtDiaChiXk.Parent" xml:space="preserve">
+    <value>groupTTKH</value>
+  </data>
+  <data name="&gt;&gt;txtDiaChiXk.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;gridLookUpEditMaXK.Name" xml:space="preserve">
+    <value>gridLookUpEditMaXK</value>
+  </data>
+  <data name="&gt;&gt;gridLookUpEditMaXK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;gridLookUpEditMaXK.Parent" xml:space="preserve">
+    <value>groupTTKH</value>
+  </data>
+  <data name="&gt;&gt;gridLookUpEditMaXK.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="groupTTKH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="groupTTKH.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1352, 143</value>
+  </data>
+  <data name="groupTTKH.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupTTKH.Text" xml:space="preserve">
+    <value>Thông Tin Khách Hàng</value>
+  </data>
+  <data name="&gt;&gt;groupTTKH.Name" xml:space="preserve">
+    <value>groupTTKH</value>
+  </data>
+  <data name="&gt;&gt;groupTTKH.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupTTKH.Parent" xml:space="preserve">
+    <value>xtraTPXuaKho</value>
+  </data>
+  <data name="&gt;&gt;groupTTKH.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
   <data name="labelControl10.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
@@ -9447,6 +10413,75 @@
   </data>
   <data name="groupControl4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;txtMaXK.Name" xml:space="preserve">
+    <value>txtMaXK</value>
+  </data>
+  <data name="&gt;&gt;txtMaXK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtMaXK.Parent" xml:space="preserve">
+    <value>groupControl4</value>
+  </data>
+  <data name="&gt;&gt;txtMaXK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelControl13.Name" xml:space="preserve">
+    <value>labelControl13</value>
+  </data>
+  <data name="&gt;&gt;labelControl13.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl13.Parent" xml:space="preserve">
+    <value>groupControl4</value>
+  </data>
+  <data name="&gt;&gt;labelControl13.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;labelControl14.Name" xml:space="preserve">
+    <value>labelControl14</value>
+  </data>
+  <data name="&gt;&gt;labelControl14.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl14.Parent" xml:space="preserve">
+    <value>groupControl4</value>
+  </data>
+  <data name="&gt;&gt;labelControl14.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dateEditNgayXK.Name" xml:space="preserve">
+    <value>dateEditNgayXK</value>
+  </data>
+  <data name="&gt;&gt;dateEditNgayXK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dateEditNgayXK.Parent" xml:space="preserve">
+    <value>groupControl4</value>
+  </data>
+  <data name="&gt;&gt;dateEditNgayXK.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupControl4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1149, 24</value>
+  </data>
+  <data name="groupControl4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 102</value>
+  </data>
+  <data name="groupControl4.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;groupControl4.Name" xml:space="preserve">
+    <value>groupControl4</value>
+  </data>
+  <data name="&gt;&gt;groupControl4.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupControl4.Parent" xml:space="preserve">
+    <value>groupTTKH</value>
+  </data>
+  <data name="&gt;&gt;groupControl4.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="txtMaXK.Location" type="System.Drawing.Point, System.Drawing">
     <value>69, 10</value>
@@ -9549,27 +10584,6 @@
   </data>
   <data name="&gt;&gt;dateEditNgayXK.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="groupControl4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1149, 24</value>
-  </data>
-  <data name="groupControl4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 102</value>
-  </data>
-  <data name="groupControl4.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;groupControl4.Name" xml:space="preserve">
-    <value>groupControl4</value>
-  </data>
-  <data name="&gt;&gt;groupControl4.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;groupControl4.Parent" xml:space="preserve">
-    <value>groupTTKH</value>
-  </data>
-  <data name="&gt;&gt;groupControl4.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="simpleButton2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -9856,48 +10870,6 @@
   <data name="&gt;&gt;gridLookUpEditMaXK.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="groupTTKH.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="groupTTKH.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1352, 143</value>
-  </data>
-  <data name="groupTTKH.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="groupTTKH.Text" xml:space="preserve">
-    <value>Thông Tin Khách Hàng</value>
-  </data>
-  <data name="&gt;&gt;groupTTKH.Name" xml:space="preserve">
-    <value>groupTTKH</value>
-  </data>
-  <data name="&gt;&gt;groupTTKH.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;groupTTKH.Parent" xml:space="preserve">
-    <value>xtraTPXuaKho</value>
-  </data>
-  <data name="&gt;&gt;groupTTKH.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="xtraTPXuaKho.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1352, 576</value>
-  </data>
-  <data name="xtraTPXuaKho.Text" xml:space="preserve">
-    <value>Xuất Kho</value>
-  </data>
-  <data name="&gt;&gt;xtraTPXuaKho.Name" xml:space="preserve">
-    <value>xtraTPXuaKho</value>
-  </data>
-  <data name="&gt;&gt;xtraTPXuaKho.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;xtraTPXuaKho.Parent" xml:space="preserve">
-    <value>xtraTabMain</value>
-  </data>
-  <data name="&gt;&gt;xtraTPXuaKho.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="simpleButton6.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
@@ -9945,7 +10917,7 @@
 </value>
   </data>
   <data name="simpleButton6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>303, 343</value>
+    <value>303, 540</value>
   </data>
   <data name="simpleButton6.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 34</value>
@@ -10011,7 +10983,7 @@
 </value>
   </data>
   <data name="btnPrintNK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>350, 342</value>
+    <value>350, 539</value>
   </data>
   <data name="btnPrintNK.Size" type="System.Drawing.Size, System.Drawing">
     <value>41, 34</value>
@@ -10033,6 +11005,12 @@
   </data>
   <data name="navBarGroupThemNK.Caption" xml:space="preserve">
     <value>Thêm Dữ Liệu</value>
+  </data>
+  <data name="navBarControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="navBarGroupBKXNK.Caption" xml:space="preserve">
+    <value>Bảng Kê Nhập</value>
   </data>
   <data name="navBarItem1.Caption" xml:space="preserve">
     <value>Thêm HH</value>
@@ -10206,11 +11184,11 @@
         EU+Z+Gf0f8K1uCbXHmAO4Ln/AtsBVBHiG6MuAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="navBarControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left</value>
+  <data name="navBarItem4.Caption" xml:space="preserve">
+    <value>Ngày Bắt Đầu</value>
   </data>
-  <data name="navBarGroupBKXNK.Caption" xml:space="preserve">
-    <value>Bảng Kê Nhập</value>
+  <data name="navBarItem5.Caption" xml:space="preserve">
+    <value>navBarItem5</value>
   </data>
   <data name="navBarItem6.Caption" xml:space="preserve">
     <value>Theo Ngày Tháng</value>
@@ -10312,12 +11290,6 @@
         DmMGy4DCEmjQvuD0DWld0ySjSUlbGM0N+tZskzmiNpQZPEOZ3wCulDu5GBSzDgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="navBarItem4.Caption" xml:space="preserve">
-    <value>Ngày Bắt Đầu</value>
-  </data>
-  <data name="navBarItem5.Caption" xml:space="preserve">
-    <value>navBarItem5</value>
-  </data>
   <data name="navBarControl1.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 265</value>
   </data>
@@ -10347,6 +11319,530 @@
   </data>
   <data name="groupControl2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
+  </data>
+  <data name="&gt;&gt;txtMaNK.Name" xml:space="preserve">
+    <value>txtMaNK</value>
+  </data>
+  <data name="&gt;&gt;txtMaNK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtMaNK.Parent" xml:space="preserve">
+    <value>groupControl2</value>
+  </data>
+  <data name="&gt;&gt;txtMaNK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelControl8.Name" xml:space="preserve">
+    <value>labelControl8</value>
+  </data>
+  <data name="&gt;&gt;labelControl8.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl8.Parent" xml:space="preserve">
+    <value>groupControl2</value>
+  </data>
+  <data name="&gt;&gt;labelControl8.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;labelControl7.Name" xml:space="preserve">
+    <value>labelControl7</value>
+  </data>
+  <data name="&gt;&gt;labelControl7.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl7.Parent" xml:space="preserve">
+    <value>groupControl2</value>
+  </data>
+  <data name="&gt;&gt;labelControl7.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;dateEditNK.Name" xml:space="preserve">
+    <value>dateEditNK</value>
+  </data>
+  <data name="&gt;&gt;dateEditNK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.DateEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;dateEditNK.Parent" xml:space="preserve">
+    <value>groupControl2</value>
+  </data>
+  <data name="&gt;&gt;dateEditNK.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>150, 263</value>
+  </data>
+  <data name="groupControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 75</value>
+  </data>
+  <data name="groupControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;groupControl2.Name" xml:space="preserve">
+    <value>groupControl2</value>
+  </data>
+  <data name="&gt;&gt;groupControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;groupControl2.Parent" xml:space="preserve">
+    <value>xtraTPNhapKho</value>
+  </data>
+  <data name="&gt;&gt;groupControl2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnNewNK.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="btnNewNK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>321, 344</value>
+  </data>
+  <data name="btnNewNK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 50</value>
+  </data>
+  <data name="btnNewNK.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;btnNewNK.Name" xml:space="preserve">
+    <value>btnNewNK</value>
+  </data>
+  <data name="&gt;&gt;btnNewNK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnNewNK.Parent" xml:space="preserve">
+    <value>xtraTPNhapKho</value>
+  </data>
+  <data name="&gt;&gt;btnNewNK.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="grouplTTNPP.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="&gt;&gt;txtDienThoaiNK.Name" xml:space="preserve">
+    <value>txtDienThoaiNK</value>
+  </data>
+  <data name="&gt;&gt;txtDienThoaiNK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtDienThoaiNK.Parent" xml:space="preserve">
+    <value>grouplTTNPP</value>
+  </data>
+  <data name="&gt;&gt;txtDienThoaiNK.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelControl6.Name" xml:space="preserve">
+    <value>labelControl6</value>
+  </data>
+  <data name="&gt;&gt;labelControl6.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl6.Parent" xml:space="preserve">
+    <value>grouplTTNPP</value>
+  </data>
+  <data name="&gt;&gt;labelControl6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;labelControl5.Name" xml:space="preserve">
+    <value>labelControl5</value>
+  </data>
+  <data name="&gt;&gt;labelControl5.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl5.Parent" xml:space="preserve">
+    <value>grouplTTNPP</value>
+  </data>
+  <data name="&gt;&gt;labelControl5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;simpleButton1.Name" xml:space="preserve">
+    <value>simpleButton1</value>
+  </data>
+  <data name="&gt;&gt;simpleButton1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;simpleButton1.Parent" xml:space="preserve">
+    <value>grouplTTNPP</value>
+  </data>
+  <data name="&gt;&gt;simpleButton1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtGhiChuNK.Name" xml:space="preserve">
+    <value>txtGhiChuNK</value>
+  </data>
+  <data name="&gt;&gt;txtGhiChuNK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtGhiChuNK.Parent" xml:space="preserve">
+    <value>grouplTTNPP</value>
+  </data>
+  <data name="&gt;&gt;txtGhiChuNK.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtMSTNK.Name" xml:space="preserve">
+    <value>txtMSTNK</value>
+  </data>
+  <data name="&gt;&gt;txtMSTNK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtMSTNK.Parent" xml:space="preserve">
+    <value>grouplTTNPP</value>
+  </data>
+  <data name="&gt;&gt;txtMSTNK.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtDiaChiNK.Name" xml:space="preserve">
+    <value>txtDiaChiNK</value>
+  </data>
+  <data name="&gt;&gt;txtDiaChiNK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtDiaChiNK.Parent" xml:space="preserve">
+    <value>grouplTTNPP</value>
+  </data>
+  <data name="&gt;&gt;txtDiaChiNK.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;labelControl4.Name" xml:space="preserve">
+    <value>labelControl4</value>
+  </data>
+  <data name="&gt;&gt;labelControl4.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl4.Parent" xml:space="preserve">
+    <value>grouplTTNPP</value>
+  </data>
+  <data name="&gt;&gt;labelControl4.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;labelControl3.Name" xml:space="preserve">
+    <value>labelControl3</value>
+  </data>
+  <data name="&gt;&gt;labelControl3.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl3.Parent" xml:space="preserve">
+    <value>grouplTTNPP</value>
+  </data>
+  <data name="&gt;&gt;labelControl3.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Name" xml:space="preserve">
+    <value>labelControl2</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.Parent" xml:space="preserve">
+    <value>grouplTTNPP</value>
+  </data>
+  <data name="&gt;&gt;labelControl2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Name" xml:space="preserve">
+    <value>labelControl1</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.LabelControl, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.Parent" xml:space="preserve">
+    <value>grouplTTNPP</value>
+  </data>
+  <data name="&gt;&gt;labelControl1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;comboBoxEditTenNK.Name" xml:space="preserve">
+    <value>comboBoxEditTenNK</value>
+  </data>
+  <data name="&gt;&gt;comboBoxEditTenNK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GridLookUpEdit, DevExpress.XtraGrid.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;comboBoxEditTenNK.Parent" xml:space="preserve">
+    <value>grouplTTNPP</value>
+  </data>
+  <data name="&gt;&gt;comboBoxEditTenNK.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtMaNPP.Name" xml:space="preserve">
+    <value>txtMaNPP</value>
+  </data>
+  <data name="&gt;&gt;txtMaNPP.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.TextEdit, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;txtMaNPP.Parent" xml:space="preserve">
+    <value>grouplTTNPP</value>
+  </data>
+  <data name="&gt;&gt;txtMaNPP.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="grouplTTNPP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 3</value>
+  </data>
+  <data name="grouplTTNPP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>382, 256</value>
+  </data>
+  <data name="grouplTTNPP.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grouplTTNPP.Text" xml:space="preserve">
+    <value>Thông Tin Nhà Phân Phối</value>
+  </data>
+  <data name="&gt;&gt;grouplTTNPP.Name" xml:space="preserve">
+    <value>grouplTTNPP</value>
+  </data>
+  <data name="&gt;&gt;grouplTTNPP.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;grouplTTNPP.Parent" xml:space="preserve">
+    <value>xtraTPNhapKho</value>
+  </data>
+  <data name="&gt;&gt;grouplTTNPP.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnOKNK.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btnOKNK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 539</value>
+  </data>
+  <data name="btnOKNK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 34</value>
+  </data>
+  <data name="btnOKNK.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnOKNK.Name" xml:space="preserve">
+    <value>btnOKNK</value>
+  </data>
+  <data name="&gt;&gt;btnOKNK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnOKNK.Parent" xml:space="preserve">
+    <value>xtraTPNhapKho</value>
+  </data>
+  <data name="&gt;&gt;btnOKNK.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="btnCancelNK.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btnCancelNK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>227, 539</value>
+  </data>
+  <data name="btnCancelNK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 34</value>
+  </data>
+  <data name="btnCancelNK.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnCancelNK.Name" xml:space="preserve">
+    <value>btnCancelNK</value>
+  </data>
+  <data name="&gt;&gt;btnCancelNK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnCancelNK.Parent" xml:space="preserve">
+    <value>xtraTPNhapKho</value>
+  </data>
+  <data name="&gt;&gt;btnCancelNK.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnRefeshNK.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        vx/Afgb/O2tZDZB/fgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnRefeshNK.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 539</value>
+  </data>
+  <data name="btnRefeshNK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 34</value>
+  </data>
+  <data name="btnRefeshNK.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;btnRefeshNK.Name" xml:space="preserve">
+    <value>btnRefeshNK</value>
+  </data>
+  <data name="&gt;&gt;btnRefeshNK.Type" xml:space="preserve">
+    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;btnRefeshNK.Parent" xml:space="preserve">
+    <value>xtraTPNhapKho</value>
+  </data>
+  <data name="&gt;&gt;btnRefeshNK.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="xtraTPNhapKho.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1352, 576</value>
+  </data>
+  <data name="xtraTPNhapKho.Text" xml:space="preserve">
+    <value>Nhập Kho</value>
+  </data>
+  <data name="&gt;&gt;xtraTPNhapKho.Name" xml:space="preserve">
+    <value>xtraTPNhapKho</value>
+  </data>
+  <data name="&gt;&gt;xtraTPNhapKho.Type" xml:space="preserve">
+    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;xtraTPNhapKho.Parent" xml:space="preserve">
+    <value>xtraTabMain</value>
+  </data>
+  <data name="&gt;&gt;xtraTPNhapKho.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="txtMaNK.Location" type="System.Drawing.Point, System.Drawing">
     <value>69, 10</value>
@@ -10449,93 +11945,6 @@
   </data>
   <data name="&gt;&gt;dateEditNK.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="groupControl2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>150, 263</value>
-  </data>
-  <data name="groupControl2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>241, 75</value>
-  </data>
-  <data name="groupControl2.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;groupControl2.Name" xml:space="preserve">
-    <value>groupControl2</value>
-  </data>
-  <data name="&gt;&gt;groupControl2.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;groupControl2.Parent" xml:space="preserve">
-    <value>xtraTPNhapKho</value>
-  </data>
-  <data name="&gt;&gt;groupControl2.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="btnNewNK.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        RU5ErkJggg==
-</value>
-  </data>
-  <data name="btnNewNK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>265, 344</value>
-  </data>
-  <data name="btnNewNK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 34</value>
-  </data>
-  <data name="btnNewNK.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;btnNewNK.Name" xml:space="preserve">
-    <value>btnNewNK</value>
-  </data>
-  <data name="&gt;&gt;btnNewNK.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;btnNewNK.Parent" xml:space="preserve">
-    <value>xtraTPNhapKho</value>
-  </data>
-  <data name="&gt;&gt;btnNewNK.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="grouplTTNPP.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
-    <value>GrowAndShrink</value>
   </data>
   <data name="txtDienThoaiNK.Location" type="System.Drawing.Point, System.Drawing">
     <value>63, 145</value>
@@ -10848,239 +12257,6 @@
   </data>
   <data name="&gt;&gt;txtMaNPP.ZOrder" xml:space="preserve">
     <value>12</value>
-  </data>
-  <data name="grouplTTNPP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 3</value>
-  </data>
-  <data name="grouplTTNPP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>382, 256</value>
-  </data>
-  <data name="grouplTTNPP.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="grouplTTNPP.Text" xml:space="preserve">
-    <value>Thông Tin Nhà Phân Phối</value>
-  </data>
-  <data name="&gt;&gt;grouplTTNPP.Name" xml:space="preserve">
-    <value>grouplTTNPP</value>
-  </data>
-  <data name="&gt;&gt;grouplTTNPP.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.GroupControl, DevExpress.Utils.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;grouplTTNPP.Parent" xml:space="preserve">
-    <value>xtraTPNhapKho</value>
-  </data>
-  <data name="&gt;&gt;grouplTTNPP.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="btnOKNK.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
-  </data>
-  <data name="btnOKNK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>151, 344</value>
-  </data>
-  <data name="btnOKNK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 34</value>
-  </data>
-  <data name="btnOKNK.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;btnOKNK.Name" xml:space="preserve">
-    <value>btnOKNK</value>
-  </data>
-  <data name="&gt;&gt;btnOKNK.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;btnOKNK.Parent" xml:space="preserve">
-    <value>xtraTPNhapKho</value>
-  </data>
-  <data name="&gt;&gt;btnOKNK.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="btnCancelNK.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
-  </data>
-  <data name="btnCancelNK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>189, 344</value>
-  </data>
-  <data name="btnCancelNK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 34</value>
-  </data>
-  <data name="btnCancelNK.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;btnCancelNK.Name" xml:space="preserve">
-    <value>btnCancelNK</value>
-  </data>
-  <data name="&gt;&gt;btnCancelNK.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;btnCancelNK.Parent" xml:space="preserve">
-    <value>xtraTPNhapKho</value>
-  </data>
-  <data name="&gt;&gt;btnCancelNK.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="btnRefeshNK.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-        vx/Afgb/O2tZDZB/fgAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="btnRefeshNK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>227, 344</value>
-  </data>
-  <data name="btnRefeshNK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 34</value>
-  </data>
-  <data name="btnRefeshNK.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;btnRefeshNK.Name" xml:space="preserve">
-    <value>btnRefeshNK</value>
-  </data>
-  <data name="&gt;&gt;btnRefeshNK.Type" xml:space="preserve">
-    <value>DevExpress.XtraEditors.SimpleButton, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;btnRefeshNK.Parent" xml:space="preserve">
-    <value>xtraTPNhapKho</value>
-  </data>
-  <data name="&gt;&gt;btnRefeshNK.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="xtraTPNhapKho.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1352, 576</value>
-  </data>
-  <data name="xtraTPNhapKho.Text" xml:space="preserve">
-    <value>Nhập Kho</value>
-  </data>
-  <data name="&gt;&gt;xtraTPNhapKho.Name" xml:space="preserve">
-    <value>xtraTPNhapKho</value>
-  </data>
-  <data name="&gt;&gt;xtraTPNhapKho.Type" xml:space="preserve">
-    <value>DevExpress.XtraTab.XtraTabPage, DevExpress.XtraEditors.v14.2, Version=14.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
-  </data>
-  <data name="&gt;&gt;xtraTPNhapKho.Parent" xml:space="preserve">
-    <value>xtraTabMain</value>
-  </data>
-  <data name="&gt;&gt;xtraTPNhapKho.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="xtraTabMain.Appearance.ForeColor" type="System.Drawing.Color, System.Drawing">
     <value>DarkSlateGray</value>

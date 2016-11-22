@@ -29,7 +29,7 @@ namespace QuanLiKho
                     if (txtMKMoi.Text == txtNLMK.Text)
                     {
                         string user = con.GetValue("select name from tblLuuMK where num='1'", 0);
-                        con.ThucThiCauLenhSQL("update PhanQuyen set Password='" + txtMKMoi.Text + "' where Username='" + user + "'");
+                        con.ThucThiCauLenhSQL("update tblPhanQuyen set Password='" + txtMKMoi.Text + "' where Username='" + user + "'");
 
                         MessageBox.Show("Đã thay đổi mật khẩu");
                         this.Dispose();

@@ -65,7 +65,7 @@ namespace QuanLiKho
                 //MessageBox.Show(KetNoiCSDL.server + pas);
                 
 
-                string temp=con.GetValue("select Password from PhanQuyen where Username = '" + username + "'", 0).Trim();
+                string temp=con.GetValue("select Password from tblPhanQuyen where Username = '" + username + "'", 0).Trim();
 
                 
                 if (pas==temp)
