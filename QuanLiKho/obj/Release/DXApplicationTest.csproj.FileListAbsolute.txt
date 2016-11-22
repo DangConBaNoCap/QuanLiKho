@@ -1,0 +1,13 @@
+C:\Users\CRYPTO5\Documents\Visual Studio 2012\Projects\DXApplicationTest\DXApplicationTest\bin\Release\DXApplicationTest.exe.config
+C:\Users\CRYPTO5\Documents\Visual Studio 2012\Projects\DXApplicationTest\DXApplicationTest\bin\Release\DXApplicationTest.exe
+C:\Users\CRYPTO5\Documents\Visual Studio 2012\Projects\DXApplicationTest\DXApplicationTest\bin\Release\DXApplicationTest.pdb
+C:\Users\CRYPTO5\Documents\Visual Studio 2012\Projects\DXApplicationTest\DXApplicationTest\obj\Release\DXApplicationTest.csprojResolveAssemblyReference.cache
+C:\Users\CRYPTO5\Documents\Visual Studio 2012\Projects\DXApplicationTest\DXApplicationTest\obj\Release\DXApplicationTest.DoiMK.resources
+C:\Users\CRYPTO5\Documents\Visual Studio 2012\Projects\DXApplicationTest\DXApplicationTest\obj\Release\DXApplicationTest.DangNhap.resources
+C:\Users\CRYPTO5\Documents\Visual Studio 2012\Projects\DXApplicationTest\DXApplicationTest\obj\Release\DXApplicationTest.FormMain.resources
+C:\Users\CRYPTO5\Documents\Visual Studio 2012\Projects\DXApplicationTest\DXApplicationTest\obj\Release\DXApplicationTest.Properties.Resources.resources
+C:\Users\CRYPTO5\Documents\Visual Studio 2012\Projects\DXApplicationTest\DXApplicationTest\obj\Release\DXApplicationTest.Them.resources
+C:\Users\CRYPTO5\Documents\Visual Studio 2012\Projects\DXApplicationTest\DXApplicationTest\obj\Release\DXApplicationTest.csproj.GenerateResource.Cache
+C:\Users\CRYPTO5\Documents\Visual Studio 2012\Projects\DXApplicationTest\DXApplicationTest\obj\Release\DXApplicationTest.exe.licenses
+C:\Users\CRYPTO5\Documents\Visual Studio 2012\Projects\DXApplicationTest\DXApplicationTest\obj\Release\DXApplicationTest.exe
+C:\Users\CRYPTO5\Documents\Visual Studio 2012\Projects\DXApplicationTest\DXApplicationTest\obj\Release\DXApplicationTest.pdb
