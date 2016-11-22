@@ -1,0 +1,461 @@
+﻿USE [KhoHangHoa]
+ 
+/****** Object:  Table [dbo].[tblLuuMK]    Script Date: 01/20/2016 20:28:00 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[tblLuuMK](
+	[name] [char](20) NULL,
+	[pas] [char](20) NOT NULL,
+	[checked] [bit] NOT NULL,
+	[num] [char](10) NOT NULL,
+ CONSTRAINT [PK_tblLuuMK] PRIMARY KEY CLUSTERED 
+(
+	[num] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+INSERT [dbo].[tblLuuMK] ([name], [pas], [checked], [num]) VALUES (N'admin               ', N'admin               ', 1, N'1         ')
+/****** Object:  Table [dbo].[tblKiemKeTemp]    Script Date: 01/20/2016 20:28:00 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[tblKiemKeTemp](
+	[KKMa] [char](10) NOT NULL,
+	[KKNgay] [datetime] NULL,
+	[HHMa] [char](10) NULL,
+	[HHTen] [nvarchar](50) NULL,
+	[NMa] [char](10) NULL,
+	[KMa] [char](10) NULL,
+	[KKNguoi] [nvarchar](50) NULL,
+	[KKSL] [int] NULL,
+	[HHSL] [int] NULL,
+ CONSTRAINT [PK_tblKiemKeTemp] PRIMARY KEY CLUSTERED 
+(
+	[KKMa] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** Object:  Table [dbo].[tblKiemKe]    Script Date: 01/20/2016 20:28:00 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[tblKiemKe](
+	[KKMa] [char](10) NOT NULL,
+	[KKNgay] [datetime] NULL,
+	[HHMa] [char](10) NULL,
+	[HHTen] [nvarchar](50) NULL,
+	[NMa] [char](10) NULL,
+	[KMa] [char](10) NULL,
+	[KKNguoi] [nvarchar](50) NULL,
+	[KKSL] [int] NULL,
+	[HHSL] [int] NULL,
+ CONSTRAINT [PK_tblKiemKe] PRIMARY KEY CLUSTERED 
+(
+	[KKMa] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** Object:  Table [dbo].[tblKho]    Script Date: 01/20/2016 20:28:00 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[tblKho](
+	[KMa] [char](10) NOT NULL,
+	[KTen] [nvarchar](50) NOT NULL,
+	[KNguoiLienHe] [nvarchar](50) NULL,
+	[KDiaChi] [nvarchar](50) NULL,
+	[KDienThoai] [char](15) NULL,
+	[KNguoiQuanLi] [nvarchar](50) NULL,
+	[KDienGiai] [nvarchar](150) NULL,
+ CONSTRAINT [PK_tblKho] PRIMARY KEY CLUSTERED 
+(
+	[KMa] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+INSERT [dbo].[tblKho] ([KMa], [KTen], [KNguoiLienHe], [KDiaChi], [KDienThoai], [KNguoiQuanLi], [KDienGiai]) VALUES (N'K0001     ', N'Kho miền Bắc', N'Nguyễn Văn A', N'123 Hàng Mắm', N'          ', N'Nguyễn Văn A', N'')
+/****** Object:  Table [dbo].[tblKhachHang]    Script Date: 01/20/2016 20:28:00 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[tblKhachHang](
+	[KHMa] [char](10) NOT NULL,
+	[KHTen] [nvarchar](50) NOT NULL,
+	[KHDiaChi] [nvarchar](150) NULL,
+	[KHMaSoThue] [char](15) NULL,
+	[KHDienThoai] [char](15) NULL,
+	[KHGhiChu] [nvarchar](150) NULL,
+ CONSTRAINT [PK_tblKhachHang] PRIMARY KEY CLUSTERED 
+(
+	[KHMa] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+INSERT [dbo].[tblKhachHang] ([KHMa], [KHTen], [KHDiaChi], [KHMaSoThue], [KHDienThoai], [KHGhiChu]) VALUES (N'KH0001    ', N'Nguyễn Văn A', N'123, Hoàng Quốc Việt', N'987654321 ', N'123456789      ', NULL)
+/****** Object:  Table [dbo].[tblDonVi]    Script Date: 01/20/2016 20:28:00 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[tblDonVi](
+	[DVMa] [char](10) NOT NULL,
+	[DVTen] [nvarchar](50) NULL,
+	[DVGhiChu] [nvarchar](150) NULL,
+ CONSTRAINT [PK_tblDonVi] PRIMARY KEY CLUSTERED 
+(
+	[DVMa] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** Object:  Table [dbo].[tblBoPhan]    Script Date: 01/20/2016 20:28:00 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[tblBoPhan](
+	[BPMa] [char](10) NOT NULL,
+	[BPTen] [nvarchar](150) NOT NULL,
+	[BPGhiChu] [nvarchar](150) NULL,
+ CONSTRAINT [PK_tblBoPhan] PRIMARY KEY CLUSTERED 
+(
+	[BPMa] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** Object:  Table [dbo].[PhanQuyen]    Script Date: 01/20/2016 20:28:00 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[PhanQuyen](
+	[Username] [char](20) NOT NULL,
+	[Password] [char](20) NOT NULL,
+	[ThemDL] [bit] NULL,
+	[ThemTK] [bit] NULL,
+	[SuaDL] [bit] NULL,
+	[XoaDL] [bit] NULL,
+	[KhoHang] [bit] NULL,
+	[HeThong] [bit] NULL,
+	[DanhMuc] [bit] NULL,
+	[PhanQuyen] [bit] NULL,
+ CONSTRAINT [PK_PhanQuyen] PRIMARY KEY CLUSTERED 
+(
+	[Username] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+INSERT [dbo].[PhanQuyen] ([Username], [Password], [ThemDL], [ThemTK], [SuaDL], [XoaDL], [KhoHang], [HeThong], [DanhMuc], [PhanQuyen]) VALUES (N'admin               ', N'admin               ', 1, 1, 1, 1, 1, 1, 1, 1)
+INSERT [dbo].[PhanQuyen] ([Username], [Password], [ThemDL], [ThemTK], [SuaDL], [XoaDL], [KhoHang], [HeThong], [DanhMuc], [PhanQuyen]) VALUES (N'user                ', N'user                ', 0, 1, 0, 0, 1, 1, 1, 0)
+/****** Object:  Table [dbo].[tblNPP]    Script Date: 01/20/2016 20:28:00 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[tblNPP](
+	[NPPMa] [char](10) NOT NULL,
+	[NPPTen] [nvarchar](50) NOT NULL,
+	[NPPDiaChi] [nvarchar](150) NOT NULL,
+	[NPPMaSoThue] [nchar](15) NULL,
+	[NPPDienThoai] [nchar](15) NULL,
+	[NPPGhiChu] [nvarchar](150) NULL,
+ CONSTRAINT [PK_tblNPP] PRIMARY KEY CLUSTERED 
+(
+	[NPPMa] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** Object:  Table [dbo].[tblNhatKi]    Script Date: 01/20/2016 20:28:00 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+CREATE TABLE [dbo].[tblNhatKi](
+	[NKTen] [nvarchar](50) NULL,
+	[NKTacVu] [nvarchar](50) NULL,
+	[NKNgay] [nvarchar](50) NULL,
+	[NKUser] [nvarchar](50) NULL
+) ON [PRIMARY]
+ 
+/****** Object:  Table [dbo].[tblNhapKhoTemp]    Script Date: 01/20/2016 20:28:00 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[tblNhapKhoTemp](
+	[HHMa] [char](10) NULL,
+	[KMa] [char](10) NULL,
+	[DVMa] [char](10) NULL,
+	[NKMa] [char](10) NOT NULL,
+	[NKNgay] [datetime] NULL,
+	[NKSL] [int] NOT NULL,
+	[NKGia] [money] NOT NULL,
+	[NKThanhTien] [money] NULL,
+	[NPPMa] [char](10) NULL,
+ CONSTRAINT [PK_tblNhapKhoTemp] PRIMARY KEY CLUSTERED 
+(
+	[NKMa] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** Object:  Table [dbo].[tblXuatKhoTemp]    Script Date: 01/20/2016 20:28:00 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[tblXuatKhoTemp](
+	[HHMa] [char](10) NULL,
+	[KMa] [char](10) NULL,
+	[DVMa] [char](10) NULL,
+	[XKMa] [char](10) NOT NULL,
+	[XKSL] [int] NOT NULL,
+	[XKGia] [money] NOT NULL,
+	[KHMa] [char](10) NULL,
+	[XKNgay] [datetime] NULL,
+	[XKThanhTien] [money] NULL,
+ CONSTRAINT [PK_tblXuatKhoTemp] PRIMARY KEY CLUSTERED 
+(
+	[XKMa] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** Object:  Table [dbo].[tblNhanVien]    Script Date: 01/20/2016 20:28:00 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[tblNhanVien](
+	[NVMa] [char](10) NOT NULL,
+	[NVTen] [nvarchar](50) NOT NULL,
+	[NVGhiChu] [nvarchar](150) NULL,
+	[BPMa] [char](10) NULL,
+ CONSTRAINT [PK_tblNhanVien] PRIMARY KEY CLUSTERED 
+(
+	[NVMa] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** Object:  Table [dbo].[tblNhom]    Script Date: 01/20/2016 20:28:00 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[tblNhom](
+	[NMa] [char](10) NOT NULL,
+	[NTen] [nchar](25) NOT NULL,
+	[NGhiChu] [nvarchar](150) NULL,
+	[KMa] [char](10) NULL,
+ CONSTRAINT [PK_tblNhom] PRIMARY KEY CLUSTERED 
+(
+	[NMa] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** Object:  Table [dbo].[tblHangHoa]    Script Date: 01/20/2016 20:28:00 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[tblHangHoa](
+	[HHMa] [char](10) NOT NULL,
+	[HHTen] [nvarchar](25) NOT NULL,
+	[HHGia] [money] NOT NULL,
+	[DVMa] [char](10) NULL,
+	[KMa] [char](10) NULL,
+	[NPPMa] [char](10) NULL,
+	[HHTonHienTai] [int] NOT NULL,
+	[NMa] [char](10) NULL,
+	[HHThanhTien] [money] NULL,
+ CONSTRAINT [PK_tblKhoHangHoa] PRIMARY KEY CLUSTERED 
+(
+	[HHMa] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** Object:  Table [dbo].[tblXuatKho]    Script Date: 01/20/2016 20:28:00 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[tblXuatKho](
+	[HHMa] [char](10) NULL,
+	[KMa] [char](10) NULL,
+	[DVMa] [char](10) NULL,
+	[XKMa] [char](10) NOT NULL,
+	[XKSL] [int] NOT NULL,
+	[XKGia] [money] NOT NULL,
+	[KHMa] [char](10) NULL,
+	[XKNgay] [datetime] NULL,
+	[XKThanhTien] [money] NULL,
+ CONSTRAINT [PK_tblXuatKho] PRIMARY KEY CLUSTERED 
+(
+	[XKMa] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** Object:  Table [dbo].[tblNhapKho]    Script Date: 01/20/2016 20:28:00 ******/
+SET ANSI_NULLS ON
+ 
+SET QUOTED_IDENTIFIER ON
+ 
+SET ANSI_PADDING ON
+ 
+CREATE TABLE [dbo].[tblNhapKho](
+	[HHMa] [char](10) NULL,
+	[KMa] [char](10) NULL,
+	[DVMa] [char](10) NULL,
+	[NKMa] [char](10) NOT NULL,
+	[NKNgay] [datetime] NULL,
+	[NKSL] [int] NOT NULL,
+	[NKGia] [money] NOT NULL,
+	[NKThanhTien] [money] NULL,
+	[NPPMa] [char](10) NULL,
+ CONSTRAINT [PK_tblNhapKho] PRIMARY KEY CLUSTERED 
+(
+	[NKMa] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+ 
+SET ANSI_PADDING OFF
+ 
+/****** Object:  Default [DF_tblKhachHang_KHMa]    Script Date: 01/20/2016 20:28:00 ******/
+ALTER TABLE [dbo].[tblKhachHang] ADD  CONSTRAINT [DF_tblKhachHang_KHMa]  DEFAULT ('KH0001') FOR [KHMa]
+ 
+/****** Object:  Default [DF_tblHangHoa_HHMa]    Script Date: 01/20/2016 20:28:00 ******/
+ALTER TABLE [dbo].[tblHangHoa] ADD  CONSTRAINT [DF_tblHangHoa_HHMa]  DEFAULT ('HH0001') FOR [HHMa]
+ 
+/****** Object:  Default [DF_tblHangHoa_DVMa]    Script Date: 01/20/2016 20:28:00 ******/
+ALTER TABLE [dbo].[tblHangHoa] ADD  CONSTRAINT [DF_tblHangHoa_DVMa]  DEFAULT (NULL) FOR [DVMa]
+ 
+/****** Object:  Default [DF_tblHangHoa_NPPMa]    Script Date: 01/20/2016 20:28:00 ******/
+ALTER TABLE [dbo].[tblHangHoa] ADD  CONSTRAINT [DF_tblHangHoa_NPPMa]  DEFAULT (NULL) FOR [NPPMa]
+ 
+/****** Object:  Default [DF_tblHangHoa_HHTonHienTai]    Script Date: 01/20/2016 20:28:00 ******/
+ALTER TABLE [dbo].[tblHangHoa] ADD  CONSTRAINT [DF_tblHangHoa_HHTonHienTai]  DEFAULT ((0)) FOR [HHTonHienTai]
+ 
+/****** Object:  ForeignKey [FK_tblNhanVien_tblBoPhan]    Script Date: 01/20/2016 20:28:00 ******/
+ALTER TABLE [dbo].[tblNhanVien]  WITH CHECK ADD  CONSTRAINT [FK_tblNhanVien_tblBoPhan] FOREIGN KEY([BPMa])
+REFERENCES [dbo].[tblBoPhan] ([BPMa])
+ON UPDATE CASCADE
+ON DELETE SET NULL
+ 
+ALTER TABLE [dbo].[tblNhanVien] CHECK CONSTRAINT [FK_tblNhanVien_tblBoPhan]
+ 
+/****** Object:  ForeignKey [FK_tblNhom_tblKho]    Script Date: 01/20/2016 20:28:00 ******/
+ALTER TABLE [dbo].[tblNhom]  WITH CHECK ADD  CONSTRAINT [FK_tblNhom_tblKho] FOREIGN KEY([KMa])
+REFERENCES [dbo].[tblKho] ([KMa])
+ON UPDATE CASCADE
+ON DELETE SET NULL
+ 
+ALTER TABLE [dbo].[tblNhom] CHECK CONSTRAINT [FK_tblNhom_tblKho]
+ 
+/****** Object:  ForeignKey [FK_tblHangHoa_tblDonVi]    Script Date: 01/20/2016 20:28:00 ******/
+ALTER TABLE [dbo].[tblHangHoa]  WITH CHECK ADD  CONSTRAINT [FK_tblHangHoa_tblDonVi] FOREIGN KEY([DVMa])
+REFERENCES [dbo].[tblDonVi] ([DVMa])
+ON UPDATE CASCADE
+ON DELETE SET NULL
+ 
+ALTER TABLE [dbo].[tblHangHoa] CHECK CONSTRAINT [FK_tblHangHoa_tblDonVi]
+ 
+/****** Object:  ForeignKey [FK_tblHangHoa_tblNhom]    Script Date: 01/20/2016 20:28:00 ******/
+ALTER TABLE [dbo].[tblHangHoa]  WITH CHECK ADD  CONSTRAINT [FK_tblHangHoa_tblNhom] FOREIGN KEY([NMa])
+REFERENCES [dbo].[tblNhom] ([NMa])
+ON UPDATE CASCADE
+ON DELETE SET NULL
+ 
+ALTER TABLE [dbo].[tblHangHoa] CHECK CONSTRAINT [FK_tblHangHoa_tblNhom]
+ 
+/****** Object:  ForeignKey [FK_tblXuatKho_tblHangHoa]    Script Date: 01/20/2016 20:28:00 ******/
+ALTER TABLE [dbo].[tblXuatKho]  WITH CHECK ADD  CONSTRAINT [FK_tblXuatKho_tblHangHoa] FOREIGN KEY([HHMa])
+REFERENCES [dbo].[tblHangHoa] ([HHMa])
+ON UPDATE CASCADE
+ 
+ALTER TABLE [dbo].[tblXuatKho] CHECK CONSTRAINT [FK_tblXuatKho_tblHangHoa]
+ 
+/****** Object:  ForeignKey [FK_tblXuatKho_tblKhachHang]    Script Date: 01/20/2016 20:28:00 ******/
+ALTER TABLE [dbo].[tblXuatKho]  WITH CHECK ADD  CONSTRAINT [FK_tblXuatKho_tblKhachHang] FOREIGN KEY([KHMa])
+REFERENCES [dbo].[tblKhachHang] ([KHMa])
+ON UPDATE CASCADE
+ON DELETE SET NULL
+ 
+ALTER TABLE [dbo].[tblXuatKho] CHECK CONSTRAINT [FK_tblXuatKho_tblKhachHang]
+ 
+/****** Object:  ForeignKey [FK_tblNhapKho_tblHangHoa]    Script Date: 01/20/2016 20:28:00 ******/
+ALTER TABLE [dbo].[tblNhapKho]  WITH CHECK ADD  CONSTRAINT [FK_tblNhapKho_tblHangHoa] FOREIGN KEY([HHMa])
+REFERENCES [dbo].[tblHangHoa] ([HHMa])
+ON UPDATE CASCADE
+ 
+ALTER TABLE [dbo].[tblNhapKho] CHECK CONSTRAINT [FK_tblNhapKho_tblHangHoa]
+ 
+/****** Object:  ForeignKey [FK_tblNhapKho_tblNPP]    Script Date: 01/20/2016 20:28:00 ******/
+ALTER TABLE [dbo].[tblNhapKho]  WITH CHECK ADD  CONSTRAINT [FK_tblNhapKho_tblNPP] FOREIGN KEY([NPPMa])
+REFERENCES [dbo].[tblNPP] ([NPPMa])
+ON UPDATE CASCADE
+ 
+ALTER TABLE [dbo].[tblNhapKho] CHECK CONSTRAINT [FK_tblNhapKho_tblNPP]
+ 
