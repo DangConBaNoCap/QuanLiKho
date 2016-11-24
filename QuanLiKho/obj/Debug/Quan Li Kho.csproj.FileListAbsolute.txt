@@ -673,3 +673,6 @@ F:\Git\QuanLiKho\QuanLiKho\obj\Debug\Quan Li Kho.csprojResolveAssemblyReference.
 F:\Git\QuanLiKho\QuanLiKho\bin\Debug\DXApplicationTest.pdb
 F:\Git\QuanLiKho\QuanLiKho\bin\Debug\Interop.WMPLib.dll
 F:\Git\QuanLiKho\QuanLiKho\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Ha Kentty\Documents\GitHub\QuanLiKho\QuanLiKho\obj\Debug\Interop.WMPLib.dll
+C:\Users\Ha Kentty\Documents\GitHub\QuanLiKho\QuanLiKho\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Ha Kentty\Documents\GitHub\QuanLiKho\QuanLiKho\obj\Debug\Quan Li Kho.csproj.ResolveComReference.cache

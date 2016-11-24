@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode3 = new DevExpress.XtraGrid.GridLevelNode();
             DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
-            DevExpress.XtraCharts.XYDiagram xyDiagram3 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.ChartTitle chartTitle3 = new DevExpress.XtraCharts.ChartTitle();
-            DevExpress.XtraCharts.XYDiagram xyDiagram4 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.ChartTitle chartTitle4 = new DevExpress.XtraCharts.ChartTitle();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode2 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.ChartTitle chartTitle1 = new DevExpress.XtraCharts.ChartTitle();
+            DevExpress.XtraCharts.XYDiagram xyDiagram2 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.ChartTitle chartTitle2 = new DevExpress.XtraCharts.ChartTitle();
             this.NPPMaEdit = new DevExpress.XtraEditors.Repository.RepositoryItemTextEdit();
             this.HHTenEdit = new DevExpress.XtraEditors.Repository.RepositoryItemTextEdit();
             this.KMaEdit = new DevExpress.XtraEditors.Repository.RepositoryItemTextEdit();
@@ -386,9 +386,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView26)).BeginInit();
             this.BDXK.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartXK)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartNK)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControlTK)).BeginInit();
             this.xtraTPBaoCao.SuspendLayout();
@@ -1211,9 +1211,9 @@
             // gridControlNK
             // 
             resources.ApplyResources(this.gridControlNK, "gridControlNK");
-            gridLevelNode3.RelationName = "Level1";
+            gridLevelNode1.RelationName = "Level1";
             this.gridControlNK.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode3});
+            gridLevelNode1});
             this.gridControlNK.MainView = this.gridView2;
             this.gridControlNK.MenuManager = this.ribbonControl1;
             this.gridControlNK.Name = "gridControlNK";
@@ -1517,9 +1517,9 @@
             // gridControlXK
             // 
             resources.ApplyResources(this.gridControlXK, "gridControlXK");
-            gridLevelNode1.RelationName = "Level1";
+            gridLevelNode2.RelationName = "Level1";
             this.gridControlXK.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode1});
+            gridLevelNode2});
             this.gridControlXK.MainView = this.gridView6;
             this.gridControlXK.MenuManager = this.ribbonControl1;
             this.gridControlXK.Name = "gridControlXK";
@@ -1626,9 +1626,9 @@
             // 
             // chartXK
             // 
-            xyDiagram3.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram3.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartXK.Diagram = xyDiagram3;
+            xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartXK.Diagram = xyDiagram1;
             resources.ApplyResources(this.chartXK, "chartXK");
             this.chartXK.Name = "chartXK";
             this.chartXK.SeriesDataMember = "HHTen";
@@ -1637,7 +1637,7 @@
             this.chartXK.SeriesTemplate.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.DateTime;
             this.chartXK.SeriesTemplate.ValueDataMembersSerializable = "XKSL";
             this.chartXK.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
-            chartTitle3});
+            chartTitle1});
             // 
             // gridHH
             // 
@@ -1690,9 +1690,9 @@
             // 
             // chartNK
             // 
-            xyDiagram4.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram4.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartNK.Diagram = xyDiagram4;
+            xyDiagram2.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram2.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartNK.Diagram = xyDiagram2;
             resources.ApplyResources(this.chartNK, "chartNK");
             this.chartNK.Name = "chartNK";
             this.chartNK.SeriesDataMember = "HHTen";
@@ -1701,7 +1701,7 @@
             this.chartNK.SeriesTemplate.ArgumentScaleType = DevExpress.XtraCharts.ScaleType.DateTime;
             this.chartNK.SeriesTemplate.ValueDataMembersSerializable = "NKSL";
             this.chartNK.Titles.AddRange(new DevExpress.XtraCharts.ChartTitle[] {
-            chartTitle4});
+            chartTitle2});
             // 
             // gridView8
             // 
@@ -2826,9 +2826,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView26)).EndInit();
             this.BDXK.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartXK)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartNK)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridControlTK)).EndInit();
