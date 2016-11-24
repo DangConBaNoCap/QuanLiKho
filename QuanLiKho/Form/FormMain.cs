@@ -1699,7 +1699,8 @@ namespace QuanLiKho
             AddXtraTab(BDXK);
             gridHH.Text = "";
             gridHHXK.Text = "";
-
+            string current;
+            current = "0";
             btnNow_Click(sender, e);
             btnNowXK_Click(sender, e);
             //chartTK.DataSource = con.GetDataTable("select HHTen,HHSL from tblHangHoa");
