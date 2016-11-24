@@ -13,7 +13,7 @@ namespace QuanLiKho
 {
     public partial class DoiMK : DevExpress.XtraBars.Ribbon.RibbonForm
     {
-        private KetNoiCSDL con = new KetNoiCSDL();
+        private KetNoiCSDL connect = new KetNoiCSDL();
 
         public DoiMK()
         {
@@ -24,12 +24,12 @@ namespace QuanLiKho
         {
             try
             {
-                if (txtMKHT.Text == con.GetValue("select pas from tblLuuMK where num='1'", 0).Trim())
+                if (txtMKHT.Text == connect.GetValue("select pas from tblLuuMK where num='1'", 0).Trim())
                 {
                     if (txtMKMoi.Text == txtNLMK.Text)
                     {
-                        string user = con.GetValue("select name from tblLuuMK where num='1'", 0);
-                        con.ThucThiCauLenhSQL("update tblPhanQuyen set Password='" + txtMKMoi.Text + "' where Username='" + user + "'");
+                        string user = connect.GetValue("select name from tblLuuMK where num='1'", 0);
+                        connect.ThucThiCauLenhSQL("update tblPhanQuyen set Password='" + txtMKMoi.Text + "' where Username='" + user + "'");
 
                         MessageBox.Show("Đã thay đổi mật khẩu");
                         this.Dispose();
